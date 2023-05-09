@@ -1,0 +1,11 @@
+{
+  "name": "kvs-bot",
+  "version": "0.0.1",
+  "description": "Bot to help with the Kentucky VEX Server",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spencer Yates (sdy329@gmail.com)",
+  "license": "ISC"
+}
