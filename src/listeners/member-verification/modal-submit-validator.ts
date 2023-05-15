@@ -20,6 +20,7 @@ import {Color} from '../../lib/embeds';
 import {ButtonId, FieldName, InputId, ModalId} from '../../lib/verification';
 import {settingsManager} from '../..';
 import {userUrl} from '../../lib/user';
+import type { Team } from '../../lib/team';
 
 @ApplyOptions<Listener.Options>({event: Events.InteractionCreate})
 export class InteractionCreateListener extends Listener<
@@ -88,10 +89,9 @@ export class InteractionCreateListener extends Listener<
     if (program.ids.length) {
       const {
         data: {data: teams},
-      } = await this.axiosInstance.get<{data: unknown[]}>('/teams', {
+      } = await this.axiosInstance.get<{data: Team[]}>('/teams', {
         params: {program: program.ids, number: [teamNumber]},
       });
-      console.log(teams);
       if (!teams.length) {
         return this.sendValidationFailure(
           interaction,

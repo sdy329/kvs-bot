@@ -1,6 +1,8 @@
 # kvs-helper bot
 
-Discord bot made to assist with verificaiton and other commands for the [Kentucky VEX Server](https://discord.gg/uMmwDe4).
+Discord bot made to assist with verification and other commands for the [Kentucky VEX Server](https://discord.gg/uMmwDe4).
+
+Bot was expanded from the [BigBro](https://github.com/jtkiesel/bigbro) repository.
 
 ## Getting Started
 
@@ -62,16 +64,11 @@ Start the bot
 yarn start
 ```
 
-## Versioning
-
-We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/jtkiesel/vexibot/tags).
-
 ## Authors
 
-- **Jordan Kiesel** - [LinkedIn](https://www.linkedin.com/in/jtkiesel/)
 - **Spencer Yates** - [LinkedIn](https://www.linkedin.com/in/spencer-yates-)
 
-See also the list of [contributors](https://github.com/jtkiesel/bigbro/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/sdy329/kvs-bot/contributors) who participated in this project.
 
 ## License
 

@@ -15,8 +15,7 @@ import {Color} from '../lib/embeds';
 import {ButtonId} from '../lib/verification';
 
 enum SubcommandName {
-  Logging = 'logging',
-  Verification = 'verification',
+  Verification = 'verification'
 }
 
 const error = (interaction: ChatInputCommandInteraction, content: string) => {
@@ -31,64 +30,6 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
   requiredUserPermissions: [PermissionsBitField.Flags.ManageGuild],
   runIn: [CommandOptionsRunTypeEnum.GuildAny],
   subcommands: [
-    {
-      name: SubcommandName.Logging,
-      chatInputRun: async (interaction: ChatInputCommandInteraction) => {
-        await interaction.deferReply({ephemeral: true});
-
-        if (!interaction.inGuild()) {
-          await error(interaction, 'Command only available in servers');
-          return;
-        }
-
-        const guild = await interaction.client.guilds.fetch(
-          interaction.guildId
-        );
-        if (!guild.members.me) {
-          await error(interaction, 'I am not a member of this server');
-          return;
-        }
-
-        const channel = await guild.channels.fetch(
-          interaction.options.getChannel(LoggingOption.Channel, true).id
-        );
-        if (!channel) {
-          await error(interaction, `Could not find ${channel} in this server`);
-          return;
-        }
-        if (!channel.isTextBased()) {
-          await error(interaction, `${channel} is not a text channel`);
-          return;
-        }
-
-        const missingChannelPermissions = guild.members.me
-          .permissionsIn(channel)
-          .missing([
-            PermissionsBitField.Flags.ViewChannel,
-            PermissionsBitField.Flags.SendMessages,
-            PermissionsBitField.Flags.EmbedLinks,
-            PermissionsBitField.Flags.AttachFiles,
-          ]);
-        if (missingChannelPermissions.length) {
-          await error(
-            interaction,
-            `I am missing the following permissions in ${channel}: ${missingChannelPermissions}`
-          );
-          return;
-        }
-
-        await settingsManager.set(guild.id, {loggingChannel: channel.id});
-
-        await interaction.followUp({
-          embeds: [
-            new EmbedBuilder()
-              .setColor(Color.Green)
-              .setDescription(`Action logging setup in ${channel}`),
-          ],
-          ephemeral: true,
-        });
-      },
-    },
     {
       name: SubcommandName.Verification,
       chatInputRun: async (interaction: ChatInputCommandInteraction) => {
@@ -254,19 +195,6 @@ export class SetupCommand extends Subcommand {
         command
           .setName(this.name)
           .setDescription(this.description)
-          .addSubcommand(logging =>
-            logging
-              .setName(SubcommandName.Logging)
-              .setDescription('Setup action logging for this server')
-              .addChannelOption(channel =>
-                channel
-                  .setName(LoggingOption.Channel)
-                  .setDescription(
-                    'The channel in which action logs will be sent'
-                  )
-                  .setRequired(true)
-              )
-          )
           .addSubcommand(verification =>
             verification
               .setName(SubcommandName.Verification)
@@ -297,10 +225,6 @@ export class SetupCommand extends Subcommand {
       {idHints: ['988533666722488380', '985249852550168646']}
     );
   }
-}
-
-enum LoggingOption {
-  Channel = 'channel',
 }
 
 enum VerificationOption {
