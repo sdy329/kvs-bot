@@ -1,0 +1,66 @@
+{
+    "VRC_OU": {
+        "SC1": {
+            "main": "All Scoring statuses are evaluated **after the Match ends**. Scores are calculated once all Triballs, Field Elements, and Robots on the field come to rest."
+        },
+        "SC2": {
+            "main": "Scoring of the **Autonomous Bonus** is evaluated immediately after the Autonomous Period ends (i.e., once all Triballs, Field Elements, and Robots on the field come to rest). ",
+            "a": "Elevation Tier points are not included in the calculation of an Alliance's score for the purposes of determining the Autonomous Bonus.",
+            "b": "If the Autonomous Period ends in a tie, including a zero-to-zero tie, each Alliance will receive an Autonomous Bonus of four (4) points."
+        },
+        "SC3": {
+            "main": "A Triball is considered **Scored in a Goal** if it meets the following criteria: ",
+            "a": "The Triball is not contacting a Robot of the same color Alliance as the Goal.",
+            "b": "At least two (2) corners of the Triball are within the Goal (i.e., are under the Net and have \"broken the plane\" of the outer edge of the PVC pipes that define the Goal volume)."
+        },
+        "SC4": {
+            "main": "A Triball is considered **Scored in an Offensive Zone** if it meets the following criteria: ",
+            "a": "The Triball is not contacting a Robot of the same color Alliance as the Offensive Zone.",
+            "b": "The Triball is contacting the gray foam tiles within the Offensive Zone",
+            "note": "Offensive Zone scoring is based on contact with the gray foam tiles in each Offensive Zone. In the case of any close calls, referees may use a \"paper test\" (i.e. gently slide a piece of paper under the Triball) to determine which Offensive Zone it should be scored in. If the Triball is contacting both Offensive Zones, then it is not considered Scored in either Zone. See Figure 23."
+        },
+        "SC5": {
+            "main": "**Alliance Triballs** may be Scored in any Goal or Offensive Zone, and always count toward the same color Alliance as the Triball. For example, a red Alliance Triball that meets the definition of Scored in the blue Goal will count as 5 points for the red Alliance. ",
+            "a": "To be eligible for points, Alliance Triballs must not be contacting any Robots of the same color Alliance as the Triball.",
+            "b": "Rule <SC3a> does not apply to Alliance Triballs"
+        },
+        "SC6": {
+            "main": "**Elevation points** are comparative, and are awarded based on the Elevation Tiers achieved by all Robots at the end of the Match. The highest-Elevated Robot will receive the highest number of Elevation points, followed by the second-highest, and so on. If multiple Robots are measured at the same Elevation Tier, they will receive the same amount of points."
+        },
+        "SC7": {
+            "main": "An **Autonomous Win Point** is awarded to any Alliance that has completed the following tasks at the end of the Autonomous Period:",
+            "a": "Removed the Triball from the Alliance's Match Load Zone that coincides with their Starting Tiles. For example, in Figure 18, the red Alliance must remove the Triball that begins in the bottom-left Match Load Zone, adjacent to Robot 1’s Starting Tiles.",
+            "b": "Scored at least one Alliance Triball in the Alliance's own Goal.",
+            "c": "Ended the Autonomous Period with at least one Robot contacting their own Elevation Bar.",
+            "d": "Not violated any other rules."
+        },
+        "S1": {
+            "main": "**Be safe out there**. If at any time the Robot operation or Team actions are deemed unsafe or have damaged a Field Element or Triball, the offending Team may receive a Disablement and/or Disqualification at the discretion of the Head Referee. The Robot will require re-inspection as described in rule <R3> before it may take the field again."
+        },
+        "S2": {
+            "main": "**Students must be accompanied by an Adult**. No Student may attend a VRC event without a responsible Adult supervising them. The Adult must obey all rules and be careful to not violate Student-centered policies, but must be present at the event in the case of an emergency. Violations of this rule may result in removal from the event."
+        },
+        "S3": {
+            "main": "**Stay inside the field**. If a Robot is completely out-of-bounds (outside the playing field), it will be Disabled for the remainder of the Match.",
+            "note": "The intent of this rule is not to penalize Robots for having mechanisms that inadvertently cross the field perimeter during normal game play. However, mechanisms which cross the field perimeter intentionally and/or repeatedly while interacting with the Match Load Zone may be considered a Violation of <S1> at the Head Referee’s discretion."
+        },
+        "S4": {
+            "main": "**Wear safety glasses**. All Drive Team Members must wear safety glasses or glasses with side shields while in the Alliance Stations during Matches. While in the pit area, it is highly recommended that all Team members wear safety glasses."
+        },
+        "G1": {
+            "main": "**Treat everyone with respect**. All Teams are expected to conduct themselves in a respectful and professional manner while competing in VEX Robotics Competition events. If a Team or any of its members (Students or any Adults associated with the Team) are disrespectful or uncivil to event staff, volunteers, or fellow competitors, they may be Disqualified from a current or upcoming Match. Team conduct pertaining to <G1> may also impact a Team’s eligibility for judged awards. Repeated or extreme violations of <G1> could result in a Team being Disqualified from an entire event, depending on the severity of the situation.\n\nThis rule exists alongside the REC Foundation Code of Conduct. Violation of the Code of Conduct can be considered a Major Violation of <G1> and can result in Disqualification from a current Match, an upcoming Match, an entire event, or (in extreme cases) an entire competition season. The Code of Conduct can be found at https://vrc-kb.recf.org/hc/en-us/articles/9653987780375-Code-of-Conduct.",
+            "note": "All Violations of <G1> are considered Major Violations and should be addressed on a case-by-case basis. Teams at risk of a <G1> Violation due to multiple disrespectful or uncivil behaviors will usually receive a “final warning”, although the Head Referee is not required to provide one."
+        },
+        "G2": {
+            "main": "**VRC is a student-centered program**. Adults may assist Students in urgent situations, but Adults may never work on or program a Robot without Students on that Team being present and actively participating. Students must be prepared to demonstrate an active understanding of their Robot's construction and programming to judges or event staff.\n\nThis rule operates in tandem with the REC Foundation Student Centered Policy, which is available on the REC Foundation website for Teams to reference throughout the season: https://vrc-kb.recf.org/hc/en-us/articles/9654578622487-Student-Centered-Policy",
+            "note": "Potential Violations of this rule will be reviewed on a case-by-case basis. By definition, all Violations of this rule become Match Affecting as soon as a Robot which was built by an Adult wins a Match. "
+        },
+        "G3": {
+            "main": "**Use common sense**. When reading and applying the various rules in this document, please remember that common sense always applies in the VEX Robotics Competition. "
+        },
+        "G4": {
+            "main": "**The Robot must represent the skill level of the Team**. Each Team must include Drive Team Members, Programmer(s), Designer(s), and Builder(s). No Student may fulfill any of these roles for more than one VEX Robotics Competition Team in a given competition season. Students may have more than one role on the Team, e.g. the Designer may also be the Builder, the Programmer and a Drive Team Member.",
+            "a": "Team members may move from one Team to another for non-strategic reasons outside of the Team's control.\n\ni. Examples of permissible moves may include, but are not limited to, illness, changing schools, conflicts within a Team, or combining/splitting Teams.\n\nii. Examples of strategic moves in Violation of this rule may include, but are not limited to, one Programmer “switching” Teams in order to write the same program for multiple Robots, or one Student writing the Engineering Notebook for multiple Teams.\n\niii."
+        }
+    }
+}

@@ -30,7 +30,8 @@
     "dotenv": "^16.0.3",
     "lru-cache": "^8.0.4",
     "mongodb": "^5.1.0",
-    "robotevents": "^2.7.0"
+    "robotevents": "^2.7.0",
+    "yaml": "^2.2.2"
   },
   "devDependencies": {
     "@sapphire/ts-config": "^3.3.4",
