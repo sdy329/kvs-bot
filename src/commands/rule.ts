@@ -2,15 +2,12 @@ import { ApplyOptions } from '@sapphire/decorators';
 import type { Command } from '@sapphire/framework';
 import { Subcommand } from '@sapphire/plugin-subcommands';
 import {
-    /*ActionRowBuilder,
-    ChannelType,*/
     EmbedBuilder,
-    //PermissionsBitField,
     type ChatInputCommandInteraction,
 } from 'discord.js';
 import { Color } from '../lib/embeds';
 import * as rulesJSON from '../lib/rules.json';
-import { current, seasonsVRC } from '../lib/seasons'
+import { current, seasonsVRC, seasonsVIQRC } from '../lib/seasons'
 
 const json = JSON.parse(JSON.stringify(rulesJSON));
 const alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'];
@@ -62,6 +59,79 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                         `There is no rule ${ruleNumber} for ${seasonName}`
                     );
                 }
+                let jsonLength = Object.keys(json[season][ruleNumber]).length
+                if (jsonLength !== 1) {
+                    subsectionsContent = '';
+                    try {
+                        for (var i = 0; i < jsonLength; i++) {
+                            if (i == 0) {
+                                if (json[season][ruleNumber]['note'] !== undefined) {
+                                    jsonLength -= 1;
+                                }
+                                continue;
+                            }
+                            try {
+                                subsections.push(json[season][ruleNumber][alphabet[i - 1]])
+                                subsectionsContent += `${alphabet[i - 1]}. ${json[season][ruleNumber][alphabet[i - 1]]}\n\n`;
+                            } catch (error) {
+                                throw error;
+                            }
+                        }
+                        if (json[season][ruleNumber]['note'] !== undefined) {
+                            subsectionsContent += `Note: ${json[season][ruleNumber]['note']}\n\n`;
+                        }
+                    } catch (error) {
+                        throw error;
+                    }
+                }
+
+                console.log(subsections);
+
+                    await interaction.followUp({
+                        embeds: [
+                            new EmbedBuilder()
+                                .setColor(Color.Red)
+                                .setTitle(`${seasonName} Rule ${ruleNumber}`)
+                                .setDescription(ruleMain)
+                                .addFields({ name: ' ', value: subsectionsContent }
+                                ),
+                        ],
+                        ephemeral: true,
+                    });
+            },
+        },
+        {
+            name: SubcommandName.VIQRC,
+            chatInputRun: async (interaction: ChatInputCommandInteraction) => {
+                await interaction.deferReply({});
+
+                const ruleNumber = interaction.options.getString(
+                    ruleOption.ruleNumber,
+                    true
+                );
+
+                let seasonID = interaction.options.getString(
+                    ruleOption.seasonName,
+                    false
+                );
+                if (seasonID === null) {
+                    seasonID = current.VIQRC;
+                }
+
+                let season = seasonID;
+                let seasonName = seasonsVIQRC[season as keyof typeof seasonsVIQRC];
+                let ruleMain;
+                let subsections: string[] = [];
+                let subsectionsContent = ' ';
+
+                try {
+                    ruleMain = json[season][ruleNumber]['main']
+                } catch {
+                    await error(
+                        interaction,
+                        `There is no rule ${ruleNumber} for ${seasonName}`
+                    );
+                }
 
                 let jsonLength = Object.keys(json[season][ruleNumber]).length
                 if (jsonLength !== 1) {
@@ -78,7 +148,6 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                                 subsections.push(json[season][ruleNumber][alphabet[i - 1]])
                                 subsectionsContent += `**${alphabet[i - 1]}.** ${json[season][ruleNumber][alphabet[i - 1]]}\n\n`;
                             } catch (error) {
-                                console.log(error);
                                 throw error;
                             }
                         }
@@ -86,7 +155,6 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                             subsectionsContent += `Note: ${json[season][ruleNumber]['note']}\n\n`;
                         }
                     } catch (error) {
-                        console.log(error)
                         throw error;
                     }
                 }
@@ -94,16 +162,16 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                 await interaction.followUp({
                     embeds: [
                         new EmbedBuilder()
-                            .setColor(Color.Red)
+                            .setColor(Color.Blue)
                             .setTitle(`${seasonName} Rule ${ruleNumber}`)
                             .setDescription(ruleMain)
                             .addFields({ name: ' ', value: subsectionsContent }
-                            )
+                            ),
                     ],
-                    ephemeral: true,
+                    ephemeral: false,
                 });
-            }
-        }
+            },
+        },
     ],
 })
 export class RuleCommand extends Subcommand {
@@ -151,8 +219,8 @@ export class RuleCommand extends Subcommand {
                                     .setRequired(false)
                             )
                     )
-                    .addSubcommand(vrc =>
-                        vrc
+                    .addSubcommand(viqrc =>
+                        viqrc
                             .setName(SubcommandName.VIQRC)
                             .setDescription('Search for any rule within any VIQRC game manual')
                             .addStringOption(ruleNumber =>

@@ -23,3 +23,18 @@ export enum seasonsVRC {
     VRC_EL = 'Elevation',
     VRC_BB = 'Bridge Battle'
 }
+
+export enum seasonsVIQRC {
+    VIQRC_FV = 'Full Volume',
+    VIQRC_SS = 'Slapshot',
+    VIQRC_PI = 'Pitching In',
+    VIQRC_RA = 'Rise Above',
+    VIQRC_SA = 'Squared Away',
+    VIQRC_NL = 'Next Level',
+    VIQRC_RM = 'Ringmaster',
+    VIQRC_CO = 'Crossover',
+    VIQRC_BS = 'Bank Shot',
+    VIQRC_HR = 'Highrise',
+    VIQRC_AU = 'Add it Up',
+    VIQRC_RT = 'Rings-n-Things'
+}
