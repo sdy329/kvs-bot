@@ -11,13 +11,13 @@
         "SC3": {
             "main": "A Triball is considered **Scored in a Goal** if it meets the following criteria: ",
             "a": "The Triball is not contacting a Robot of the same color Alliance as the Goal.",
-            "b": "At least two (2) corners of the Triball are within the Goal (i.e., are under the Net and have “broken the plane” of the outer edge of the PVC pipes that define the Goal volume)."
+            "b": "At least two (2) corners of the Triball are within the Goal (i.e., are under the Net and have \"broken the plane\" of the outer edge of the PVC pipes that define the Goal volume)."
         },
         "SC4": {
             "main": "A Triball is considered **Scored in an Offensive Zone** if it meets the following criteria: ",
             "a": "The Triball is not contacting a Robot of the same color Alliance as the Offensive Zone.",
             "b": "The Triball is contacting the gray foam tiles within the Offensive Zone",
-            "note": "Offensive Zone scoring is based on contact with the gray foam tiles in each Offensive Zone. In the case of any close calls, referees may use a “paper test” (i.e. gently slide a piece of paper under the Triball) to determine which Offensive Zone it should be scored in. If the Triball is contacting both Offensive Zones, then it is not considered Scored in either Zone. See Figure 23."
+            "note": "Offensive Zone scoring is based on contact with the gray foam tiles in each Offensive Zone. In the case of any close calls, referees may use a \"paper test\" (i.e. gently slide a piece of paper under the Triball) to determine which Offensive Zone it should be scored in. If the Triball is contacting both Offensive Zones, then it is not considered Scored in either Zone. See Figure 23."
         },
         "SC5": {
             "main": "**Alliance Triballs** may be Scored in any Goal or Offensive Zone, and always count toward the same color Alliance as the Triball. For example, a red Alliance Triball that meets the definition of Scored in the blue Goal will count as 5 points for the red Alliance. ",
@@ -49,7 +49,7 @@
         },
         "G1": {
             "main": "**Treat everyone with respect.** All Teams are expected to conduct themselves in a respectful and professional manner while competing in VEX Robotics Competition events. If a Team or any of its members (Students or any Adults associated with the Team) are disrespectful or uncivil to event staff, volunteers, or fellow competitors, they may be Disqualified from a current or upcoming Match. Team conduct pertaining to <G1> may also impact a Team's eligibility for judged awards. Repeated or extreme violations of <G1> could result in a Team being Disqualified from an entire event, depending on the severity of the situation.\n\nThis rule exists alongside the REC Foundation Code of Conduct. Violation of the Code of Conduct can be considered a Major Violation of <G1> and can result in Disqualification from a current Match, an upcoming Match, an entire event, or (in extreme cases) an entire competition season. The Code of Conduct can be found at https://vrc-kb.recf.org/hc/en-us/articles/9653987780375-Code-of-Conduct.",
-            "note": "All Violations of <G1> are considered Major Violations and should be addressed on a case-by-case basis. Teams at risk of a <G1> Violation due to multiple disrespectful or uncivil behaviors will usually receive a “final warning”, although the Head Referee is not required to provide one."
+            "note": "All Violations of <G1> are considered Major Violations and should be addressed on a case-by-case basis. Teams at risk of a <G1> Violation due to multiple disrespectful or uncivil behaviors will usually receive a \"final warning\", although the Head Referee is not required to provide one."
         },
         "G2": {
             "main": "**VRC is a student-centered program.** Adults may assist Students in urgent situations, but Adults may never work on or program a Robot without Students on that Team being present and actively participating. Students must be prepared to demonstrate an active understanding of their Robot's construction and programming to judges or event staff.\n\nThis rule operates in tandem with the REC Foundation Student Centered Policy, which is available on the REC Foundation website for Teams to reference throughout the season: https://vrc-kb.recf.org/hc/en-us/articles/9654578622487-Student-Centered-Policy",
@@ -63,8 +63,8 @@
             "a": {
                 "main": "Team members may move from one Team to another for non-strategic reasons outside of the Team's control.",
                 "i": "Examples of permissible moves may include, but are not limited to, illness, changing schools, conflicts within a Team, or combining/splitting Teams.",
-                "ii": "Examples of strategic moves in Violation of this rule may include, but are not limited to, one Programmer “switching” Teams in order to write the same program for multiple Robots, or one Student writing the Engineering Notebook for multiple Teams.",
-                "iii": "If a Student leaves a Team to join another Team, <G4> still applies to the Students remaining on the previous Team. For example, if a Programmer leaves a Team, then that Team’s Robot must still represent the skill level of the Team without that Programmer. One way to accomplish this would be to ensure that the Programmer teaches or trains a “replacement” Programmer in their absence."
+                "ii": "Examples of strategic moves in Violation of this rule may include, but are not limited to, one Programmer \"switching\" Teams in order to write the same program for multiple Robots, or one Student writing the Engineering Notebook for multiple Teams.",
+                "iii": "If a Student leaves a Team to join another Team, <G4> still applies to the Students remaining on the previous Team. For example, if a Programmer leaves a Team, then that Team's Robot must still represent the skill level of the Team without that Programmer. One way to accomplish this would be to ensure that the Programmer teaches or trains a \"replacement\" Programmer in their absence."
             },
             "b": {
                 "main": "When a Team qualifies for a Championship event (e.g., States, Nationals, Worlds, etc.) the Students on the Team attending the Championship event are expected to be the same Students on the Team that was awarded the spot. Students can be added as support to the Team, but may not be added as Drive Team Members or Programmer for the Team.",
@@ -73,12 +73,12 @@
             "note": "Violations of this rule will be evaluated on a case-by-case basis, in tandem with the REC Foundation Student Centered Policy as noted in <G2>, and the REC Foundation Code of Conduct as noted in <G1>."
         },
         "G5": {
-            "main": "**Robots begin the Match in the starting volume.** At the beginning of a Match, each Robot must be smaller than a volume of 18” (457.2 mm) long by 18” (457.2 mm) wide by 18” (457.2 mm) tall. Using Field Elements, such as the field perimeter wall, to maintain starting size is only acceptable if the Robot would still satisfy the constraints of <R4> and pass inspection without the Field Elements.",
+            "main": "**Robots begin the Match in the starting volume.** At the beginning of a Match, each Robot must be smaller than a volume of 18\" (457.2 mm) long by 18\" (457.2 mm) wide by 18\" (457.2 mm) tall. Using Field Elements, such as the field perimeter wall, to maintain starting size is only acceptable if the Robot would still satisfy the constraints of <R4> and pass inspection without the Field Elements.",
             "note": "Any Violation of this rule will result in the Robot being removed from the field prior to the start of the Match, and rules <R3d> and <T5> will apply until the situation is corrected."
         },
         "G6": {
             "main": "**Keep your Robots together.** Robots may not intentionally detach parts during the Match or leave mechanisms on the field.",
-            "note": "Parts which become detached unintentionally and therefore a Minor Violation are no longer considered “part of a Robot,” and should be ignored for the purposes of any rules which involve Robot contact or location (e.g., Scoring, Double-Zone, etc.) or Robot size.\n\nMajor Violations of this rule should be rare, as Robots should never be designed to intentionally violate it. Minor Violations are usually due to Robots being damaged during gameplay, such as a wheel falling off."
+            "note": "Parts which become detached unintentionally and therefore a Minor Violation are no longer considered \"part of a Robot,\" and should be ignored for the purposes of any rules which involve Robot contact or location (e.g., Scoring, Double-Zone, etc.) or Robot size.\n\nMajor Violations of this rule should be rare, as Robots should never be designed to intentionally violate it. Minor Violations are usually due to Robots being damaged during gameplay, such as a wheel falling off."
         },
         "G7": {
             "main": "**Don't clamp your Robot to the field.** Robots may not intentionally grasp, grapple, or attach to any Field Elements other than the Elevation Bars. Strategies with mechanisms that react against multiple sides of a Field Element in an effort to latch or clamp onto said Field Element are prohibited. The intent of this rule is to prevent Teams from both unintentionally damaging the field and/or from anchoring themselves to the field in locations other than the Elevation Bars.",
@@ -105,11 +105,11 @@
             "note": "Any concerns regarding Field Element or Triball starting positions should be raised with the Head Referee prior to the Match. Team members may never adjust the Triballs or Field Elements themselves."
         },
         "G10": {
-            "main": "**Controllers must stay connected to the field.** Prior to the beginning of each Match, Drive Team Members must plug their V5 Controller into the field's control system. This cable must remain plugged in for the duration of the Match, and may not be removed until the “all-clear” has been given for Drive Team Members to retrieve their Robots. See <T23> for more information regarding field control system options",
+            "main": "**Controllers must stay connected to the field.** Prior to the beginning of each Match, Drive Team Members must plug their V5 Controller into the field's control system. This cable must remain plugged in for the duration of the Match, and may not be removed until the \"all-clear\" has been given for Drive Team Members to retrieve their Robots. See <T23> for more information regarding field control system options",
             "note": "The intent of this rule is to ensure that Robots abide by commands sent by the tournament software. Temporarily removing the cable to assist with mid-Match troubleshooting, with an Event Partner or other event technical staff present and assisting, would not be considered a Violation."
         },
         "G11": {
-            "main": "**Autonomous means “no humans.”** During the Autonomous Period, Drive Team Members are not permitted to interact with the Robots in any way, directly or indirectly. This could include, but is not limited to:\n\n\u2022 Activating any controls on their V5 Controllers\n\n\u2022 Unplugging or otherwise manually interfering with the field connection in any way\n\n\u2022 Manually triggering sensors (including the Vision Sensor) in any way, even without touching them",
+            "main": "**Autonomous means \"no humans.\"** During the Autonomous Period, Drive Team Members are not permitted to interact with the Robots in any way, directly or indirectly. This could include, but is not limited to:\n\n\u2022 Activating any controls on their V5 Controllers\n\n\u2022 Unplugging or otherwise manually interfering with the field connection in any way\n\n\u2022 Manually triggering sensors (including the Vision Sensor) in any way, even without touching them",
             "note": "See <G12>."
         },
         "G12": {
@@ -124,14 +124,14 @@
             "note": "\n\u2022 Major Violations of this rule are not required to be Match Affecting. Intentional and/or egregious tipping, Entanglement, or damage may be considered a Major Violation at the Head Referee's discretion.\n\n\u2022 Repeated Violations within a Match or tournament could be considered a Violation of <G1> and/or <S1> at the Head Referee's discretion."
         },
         "G14": {
-            "main": "**Offensive Robots get the “benefit of the doubt.”** In a case where Head Referees are forced to make a judgment call regarding a destructive interaction between a defensive and offensive Robot, or an interaction which results in a questionable Violation, referees will err on the side of the offensive Robot."
+            "main": "**Offensive Robots get the \"benefit of the doubt.\"** In a case where Head Referees are forced to make a judgment call regarding a destructive interaction between a defensive and offensive Robot, or an interaction which results in a questionable Violation, referees will err on the side of the offensive Robot."
         },
         "G15": {
             "main": "**You can't force an opponent into a penalty.** Intentional strategies that cause an opponent to break a rule are not permitted, and will not result in a Violation for the opposing Alliance.",
             "note": "In most cases, if a Team causes their opponent to break a rule, the Head Referee will simply not enforce the penalty on that opponent, and it will be considered a Minor Violation for the guilty Team. However, if the forced situation becomes Match Affecting in favor of the guilty Team, it will be considered a Major Violation."
         },
         "G16": {
-            "main": "**No Holding for more than a 5-count.** A Robot may not Hold an opposing Robot for more than a 5-count during the Driver Controlled Period.\n\nFor the purposes of this rule, a “count” is defined as an interval of time that is approximately one second in duration, and “counted-out” by Head Referees verbally.\n\nA Holding count is over when at least one of the following conditions is met:",
+            "main": "**No Holding for more than a 5-count.** A Robot may not Hold an opposing Robot for more than a 5-count during the Driver Controlled Period.\n\nFor the purposes of this rule, a \"count\" is defined as an interval of time that is approximately one second in duration, and \"counted-out\" by Head Referees verbally.\n\nA Holding count is over when at least one of the following conditions is met:",
             "a": "The two Robots are separated by at least two (2) feet (approximately one foam tile).",
             "b": {
                 "main": "Either Robot has moved at least two (2) feet away (approximately 1 tile) from the location where the Trapping or Pinning count began.",
@@ -162,10 +162,10 @@
             "note": "The Match will not begin until the conditions in this rule are met. If a Robot cannot meet these conditions in a timely manner, the Robot will be removed from the field and rules <R3d> and <T5> will apply until the situation is corrected."
         },
         "SG2": {
-            "main": "**Horizontal expansion is limited.** Once the Match begins, Robots may expand, but no horizontal dimension may exceed 36“ (914.4 mm) at any point during the Match.",
-            "a": "This limit refers to “horizontal” expansion relative to the playing field (i.e., it does not “rotate with the Robot”). For example, Robots which tip over during a Match or change orientation while Elevating are still subject to a 36” horizontal limit.",
+            "main": "**Horizontal expansion is limited.** Once the Match begins, Robots may expand, but no horizontal dimension may exceed 36\" (914.4 mm) at any point during the Match.",
+            "a": "This limit refers to \"horizontal\" expansion relative to the playing field (i.e., it does not \"rotate with the Robot\"). For example, Robots which tip over during a Match or change orientation while Elevating are still subject to a 36\" horizontal limit.",
             "b": "There is no height limit on Robot expansion.",
-            "note": "\n\u2022 The primary intent of this rule is to limit defensive horizontal expansion. As such, Robots who choose to expand horizontally in the vicinity of opponent Goals or Match Load Bars may be subject to rule <G14>, and will not receive the “benefit of the doubt” in the case of any Head Referee judgment calls.\n\n\u2022 Because Elevation is an inherently offensive action, a greater “benefit of the doubt” will be applied to momentary/accidental Minor Violations of this rule during Elevation."
+            "note": "\n\u2022 The primary intent of this rule is to limit defensive horizontal expansion. As such, Robots who choose to expand horizontally in the vicinity of opponent Goals or Match Load Bars may be subject to rule <G14>, and will not receive the \"benefit of the doubt\" in the case of any Head Referee judgment calls.\n\n\u2022 Because Elevation is an inherently offensive action, a greater \"benefit of the doubt\" will be applied to momentary/accidental Minor Violations of this rule during Elevation."
         },
         "SG3": {
             "main": "**Keep Triballs in the field.** Teams may not intentionally remove Triballs from the field. Although Triballs may accidentally leave the field, doing so intentionally or repeatedly would be a Violation of this rule.\n\nTriballs that leave the field during Match play, whether intentionally or unintentionally, will be returned to the field at a location nearest the point at which they exited. Referees will return the Triball to the field when it is deemed safe to do so, at the leisure of the referee.",
@@ -183,10 +183,10 @@
             "note": "Directly manipulating the net structure, such as lifting it from the field in an attempt to add or remove Triballs, could be considered a Violation of <SG3>, <G7>, and/or <S2> at the Head Referee's discretion.\n\n\u2022 Momentary or incidental contact is expected and is not considered a Violation or Disablement. The rule only becomes invoked once a Robot has become Entangled with a net and the Head Referee wishes to avoid potential field damage.\n\n\u2022 The Disablement associated with this rule is not considered a Major Violation. It is intended to be an avenue for the Head Referee to prevent any potential safety concerns and/or damage to the net.\n\n\u2022 Intentional, strategic, or repeated Minor Violations and/or Disablements may escalate to a Major Violation at the Head Referee's discretion.\n\n\u2022 Disablements last for the remainder of the match, regardless of whether the status that led to Disablement is resolved or not."
         },
         "SG6": {
-            "main": "**Match Load Triballs may be safely introduced during the Match under certain conditions.** For the purpose of this rule, “introduce” refers to the moment when a Match Load Triball is no longer in contact with a human and has crossed the plane of the field perimeter.\n\nDuring this action, a Drive Team Member's hand may temporarily break the plane of the field perimeter. This momentary interaction is an exception to rule <G9>. Excessive, unnecessary, or unsafe actions while introducing a Match Load may be considered a Violation of <S1> and/or <G1> at the Head Referee's discretion.\n\nMatch Load Triballs may be introduced by a Drive Team Member in one of two ways:",
+            "main": "**Match Load Triballs may be safely introduced during the Match under certain conditions.** For the purpose of this rule, \"introduce\" refers to the moment when a Match Load Triball is no longer in contact with a human and has crossed the plane of the field perimeter.\n\nDuring this action, a Drive Team Member's hand may temporarily break the plane of the field perimeter. This momentary interaction is an exception to rule <G9>. Excessive, unnecessary, or unsafe actions while introducing a Match Load may be considered a Violation of <S1> and/or <G1> at the Head Referee's discretion.\n\nMatch Load Triballs may be introduced by a Drive Team Member in one of two ways:",
             "a": {
                 "main": "By placing the Match Load gently onto a Match Load Zone. This may be done at any time during the Driver Controlled Period, provided that no other rules are Violated.",
-                "i": "“Throwing,” “rolling,” or otherwise imparting enough energy onto a Triball such that it bounces out of the Match Load Zone is not permitted.",
+                "i": "\"Throwing,\" \"rolling,\" or otherwise imparting enough energy onto a Triball such that it bounces out of the Match Load Zone is not permitted.",
                 "ii": "Note that the Match Load Zone refers to the foam tile itself; it is not a three-dimensional volume. There is no rules-bound limit for how many Triballs may be in the Match Load Zone at any given time, provided that new Match Loads are placed directly onto the foam tile without violating any other rules."
             },
             "b": {
@@ -198,16 +198,16 @@
         },
         "SG7": {
             "main": "**Possession is limited to one (1) Triball.** Robots may not have greater-than-momentary Possession of more than one Triball at once. Robots in Violation of this rule must immediately stop all Robot actions except for attempting to remove the excess Triball(s). This rule applies to both intentional and accidental Possession.",
-            "note": "\n\u2022 Any intentional Violation by an Alliance who wins the Match will be considered Match Affecting.\n\nExamples of egregious Violations that may immediately escalate to Major Violations include, but are not limited to:\n\n\u2022 Continuing to play other portions of the game (e.g., defensive maneuvers, Elevating) without attempting to remove excess Triballs for the majority of the Match\n\n\u2022 “Accidentally” Possessing an egregious amount of Triballs"
+            "note": "\n\u2022 Any intentional Violation by an Alliance who wins the Match will be considered Match Affecting.\n\nExamples of egregious Violations that may immediately escalate to Major Violations include, but are not limited to:\n\n\u2022 Continuing to play other portions of the game (e.g., defensive maneuvers, Elevating) without attempting to remove excess Triballs for the majority of the Match\n\n\u2022 \"Accidentally\" Possessing an egregious amount of Triballs"
         },
         "SG8": {
-            "main": "**Stay out of your opponent's Goal unless they are Double-Zoned.** During the time when an Alliance meets the definition of Double-Zoning, opposing Robots are permitted to “break the plane” of the Double-Zoning Alliance's Goal, such as to remove Triballs.",
+            "main": "**Stay out of your opponent's Goal unless they are Double-Zoned.** During the time when an Alliance meets the definition of Double-Zoning, opposing Robots are permitted to \"break the plane\" of the Double-Zoning Alliance's Goal, such as to remove Triballs.",
             "a": "This allowance ends once the Alliance is no longer Double-Zoning (i.e., when one or both of the Robots has returned to the other side of the field or contacted the Long Barrier).",
             "b": "Entering an opponent's Goal at any other time is prohibited. This includes staying inside of an opponent's Goal after they end their Double-Zone status.",
             "c": "This rule applies to both intentional and unintentional interactions. Teams are responsible for the actions of their own Robots.",
             "d": "This rule only applies during the Driver Controlled Period. Entering an opponent's Goal is not permitted at any time during the Autonomous Period.",
             "e": "If an Alliance has only one Robot present, then that Alliance can never meet the definition of Double-Zoning, and therefore its Goal is never open for opponent interactions.",
-            "note": "Attempting to remove Triballs from an opponent's Goal is an intentional and inherently defensive action. Therefore, <G14> will apply to these interactions, and the offensive Alliance will always receive the “benefit of the doubt” in the case of any close judgment calls between opposing Robots."
+            "note": "Attempting to remove Triballs from an opponent's Goal is an intentional and inherently defensive action. Therefore, <G14> will apply to these interactions, and the offensive Alliance will always receive the \"benefit of the doubt\" in the case of any close judgment calls between opposing Robots."
         },
         "SG9": {
             "main": "**Stay in your starting Zone during Autonomous.** During the Autonomous Period, Robots may not contact foam tiles, Triballs, or Field Elements on the opposing Alliance's side of the Neutral Zone, or in the opposite Offensive Zone from which they began the Match.",
@@ -217,7 +217,7 @@
         "SG10": {
             "main": "**Enter the Neutral Zone during Autonomous at your own risk.** Any Robot who engages with the Neutral Zone during the Autonomous Period should be aware that opponent Robots may also choose to do the same. Per <G11> and <G12>, Teams are responsible for the actions of their Robots at all times.",
             "a": "If opposing Robots contact one another while both engaging with the Neutral Zone, and a possible <G13> violation results (i.e., damage, Entanglement, or tipping over), then a judgment call will be made by the Head Referee within the context of <G13> and <G14> just as it would if the interaction had occurred during the Driver Controlled Period.",
-            "b": "In the context of <G14>, the Zones will always determine “offensive”/“defensive” roles during the Autonomous Period. For example, in Figure 32, the Robots are in the Blue Offensive Zone. Therefore, if an interaction occurred in the Neutral Zone that required a Head Referee judgment call, then Robot B1 would receive the “benefit of the doubt.”"
+            "b": "In the context of <G14>, the Zones will always determine \"offensive\"/\"defensive\" roles during the Autonomous Period. For example, in Figure 32, the Robots are in the Blue Offensive Zone. Therefore, if an interaction occurred in the Neutral Zone that required a Head Referee judgment call, then Robot B1 would receive the \"benefit of the doubt.\""
         },
         "SG11": {
             "main": "**Elevated Robots are protected.** During the last 30 seconds of the Match, Robots may not contact the following:",
@@ -230,10 +230,10 @@
             "a": "Teams may not compete with one Robot while a second is being modified or assembled at a competition.",
             "b": "Teams may not have an assembled second Robot on-hand at a competition that is used to repair or swap parts with the first Robot.",
             "c": "Teams may not switch back and forth between multiple Robots during a competition. This includes using different Robots for Skills Challenges, Qualification Matches and/or Elimination Matches.",
-            "d": "Multiple Teams may not use the same Robot. Once a Robot has competed under a given Team number at an event, it is “their” Robot; no other Teams may compete with it for the duration of the competition season."
+            "d": "Multiple Teams may not use the same Robot. Once a Robot has competed under a given Team number at an event, it is \"their\" Robot; no other Teams may compete with it for the duration of the competition season."
         },
         "R2": {
-            "main": "**Robots must represent the Team’s skill level.** The Robot must be designed, built, and programmed by members of the Team. Adults are expected to mentor and teach design, building, and Programming Skills to the Students on the Team, but may not design, build, or program that Team’s Robot. See rules <G2> and <G4>."
+            "main": "**Robots must represent the Team's skill level.** The Robot must be designed, built, and programmed by members of the Team. Adults are expected to mentor and teach design, building, and Programming Skills to the Students on the Team, but may not design, build, or program that Team's Robot. See rules <G2> and <G4>."
         },
         "R3": {
             "main": "**Robots must pass inspection.** Every Robot will be required to pass a full inspection before being cleared to compete. This inspection will ensure that all Robot rules and regulations are met. Initial inspections will take place during team registration/practice time. Noncompliance with any Robot design or construction rule will result in removal from Matches or Disqualification of the Robot at an event until the Robot is brought back into compliance, as described in the following subclauses.",
@@ -241,14 +241,14 @@
             "b": "All possible functional Robot configurations must be inspected before being used in competition. This especially pertains to modular or swappable mechanisms (per <R1>) and Match starting configurations/sizes (per <R4>).",
             "c": {
                 "main": "Teams may be requested to submit to random spot inspections by Head Referees. Refusal to submit will result in Disqualification.",
-                "i": "If a Robot is determined to be in Violation of a Robot rule before a Match begins, the Robot will be removed from the field. A Drive Team Member may remain at the field so that the Team does not get assessed a “no-show” (per <T5>)."
+                "i": "If a Robot is determined to be in Violation of a Robot rule before a Match begins, the Robot will be removed from the field. A Drive Team Member may remain at the field so that the Team does not get assessed a \"no-show\" (per <T5>)."
             },
             "d": "Robots which have not passed inspection (i.e., that may be in Violation of one or more Robot rules) will not be permitted to play in any Matches until they have done so. <T5> will apply to any Matches that occur until the Robot has passed inspection.",
             "e": "If a Robot has passed inspection, but is later confirmed to be in Violation of a Robot rule during or immediately following a Match by a Head Referee, they will be Disqualified from that Match. This is the only Match that will be affected; any prior Matches that have already been completed will not be revisited. <R3d> will apply until the Violation is remedied and the Team is re-inspected.",
-            "f": "All Inspection Rules are to be enforced within the discretion of the Head Referee within a given event. Robot legality at one event does not automatically imply legality at future events. Robots which rely on “edge-case” interpretations of subjective rules, such as whether a decoration is “non-functional” or not, should expect additional scrutiny during inspection."
+            "f": "All Inspection Rules are to be enforced within the discretion of the Head Referee within a given event. Robot legality at one event does not automatically imply legality at future events. Robots which rely on \"edge-case\" interpretations of subjective rules, such as whether a decoration is \"non-functional\" or not, should expect additional scrutiny during inspection."
         },
         "R4": {
-            "main": "**Robots must fit within an 18” x 18” x 18” volume.**",
+            "main": "**Robots must fit within an 18\" x 18\" x 18\" volume.**",
             "a": "Compliance with this rule must be checked using the official VEX Robotics On-Field Robot Expansion Sizing Tool: https://www.vexrobotics.com/276-5942.html.",
             "b": "Any restraints used to maintain starting size (i.e., zip ties, rubber bands, etc.) must remain attached to the Robot for the duration of the Match, per <G6>.",
             "c": "For the purposes of this rule, it can be assumed that Robots will be inspected and begin each Match on a flat standard foam field tile."
@@ -261,40 +261,40 @@
             "d": "Those that could pose a potential safety hazard to Drive Team Members, event staff, or other humans."
         },
         "R6": {
-            "main": "**Robots are built from the VEX V5 system.** Robots may be built ONLY using official VEX V5 components, unless otherwise specifically noted within these rules. Teams are responsible for providing documentation proving a part’s legality in the event of a question. Examples of documentation include receipts, part numbers, official VEX websites, or other printed evidence.",
-            "a": "Products from the VEXpro, VEX EXP, VEX IQ, VEX GO, VEX 123, or VEX Robotics by HEXBUG* product lines cannot be used for Robot construction, unless specifically allowed by a clause of <R7> or “cross-listed” as part of the VEX V5 Product lines. For example, Flex Wheels and VersaHubs are VEXpro components that can be found on the VEX “Flex Wheels” page, and are thus legal: https://www.vexrobotics.com/vrc-flex-wheels.html.",
+            "main": "**Robots are built from the VEX V5 system.** Robots may be built ONLY using official VEX V5 components, unless otherwise specifically noted within these rules. Teams are responsible for providing documentation proving a part's legality in the event of a question. Examples of documentation include receipts, part numbers, official VEX websites, or other printed evidence.",
+            "a": "Products from the VEXpro, VEX EXP, VEX IQ, VEX GO, VEX 123, or VEX Robotics by HEXBUG* product lines cannot be used for Robot construction, unless specifically allowed by a clause of <R7> or \"cross-listed\" as part of the VEX V5 Product lines. For example, Flex Wheels and VersaHubs are VEXpro components that can be found on the VEX \"Flex Wheels\" page, and are thus legal: https://www.vexrobotics.com/vrc-flex-wheels.html.",
             "b": "The following electronics from the VEX Cortex control system are not permitted.",
             "c": "The following electronics from the VEX Cortex control system are permitted.",
             "d": "Components that are unique to the V5 Workcell product line are not permitted. This includes the following.",
             "e": "VEX IQ pins are permitted",
             "f": {
                 "main": "Components obtained from the V5 beta program, including V5 beta firmware, are not legal for competition use.",
-                "i": "All V5 beta hardware can be identified by its lighter gray pre-production color. Robot Brains, Robot Batteries, Controllers, and Vision Sensors from the V5 beta have a “BETA TEST” stamp on them. Smart Motors and Radios do not have this stamp, but can still be identified by color."
+                "i": "All V5 beta hardware can be identified by its lighter gray pre-production color. Robot Brains, Robot Batteries, Controllers, and Vision Sensors from the V5 beta have a \"BETA TEST\" stamp on them. Smart Motors and Radios do not have this stamp, but can still be identified by color."
             },
             "g": "Components from the VEXplorer kit that are not found in modern VEX V5 kits are not permitted. These include (but may not be limited to) electronics, wheels, non-standard gears, and plastic connectors.",
             "h": "Official VEX products are ONLY available from VEX Robotics. All official products are listed on www.vexrobotics.com."
         },
         "R7": {
-            "main": "**Certain non-VEX components are allowed.** Robots are allowed the following additional “nonVEX” components:",
+            "main": "**Certain non-VEX components are allowed.** Robots are allowed the following additional \"nonVEX\" components:",
             "a": "Any material strictly used as a color filter or a color marker for a legal sensor, such as the VEX Light Sensor or the VEX V5 Vision Sensor.",
             "b": "Any non-aerosol-based grease or lubricating compound, when used in extreme moderation on surfaces and locations that do NOT contact the playing field walls, foam field surface, Triballs, or other Robots.",
             "c": "Anti-static compound, when used in extreme moderation (i.e., such that it does not leave residue on Field Elements, Triballs, or other Robots).",
             "d": "Hot glue when used to secure cable connections.",
-            "e": "An unlimited amount of rope / string, no thicker than 1/4” (6.35mm).",
+            "e": "An unlimited amount of rope / string, no thicker than 1/4\" (6.35mm).",
             "f": "Commercially available items used solely for bundling or wrapping of 2-wire, 3-wire, 4-wire, or V5 Smart Cables, and/or pneumatic tubing are allowed. These items must solely be used for the purposes of cable/tubing protection, organization, or management. This includes but is not limited to electrical tape, cable carrier, cable track, etc. It is up to inspectors to determine whether a component is serving a function beyond protecting and managing cables and tubing.",
             "g": "Non-functional 3D printed license plates, per <R8> and <R9>, are permitted. This includes any supporting structures whose sole purpose is to hold, mount, or display an official license plate.",
             "h": "Rubber bands that are identical in length and thickness to those included in the VEX V5 product line (#32, #64 and 117B).",
             "i": ". Pneumatic components with identical SMC manufacturer part numbers to those listed on the VEX website. For more detail regarding legal pneumatic components, see the Legal VEX Pneumatics Summary document: https://link.vex.com/docs/2022-2023/vrc-spin-up/ LegalPneumatics.",
-            "j": "Zip ties that are identical in length and thickness to those included in the VEX V5 product line (4” or 11” long)."
+            "j": "Zip ties that are identical in length and thickness to those included in the VEX V5 product line (4\" or 11\" long)."
         },
         "R8": {
-            "main": "**Decorations are allowed.** Teams may add non-functional decorations, provided that they do not affect Robot performance in any significant way or affect the outcome of the Match. These decorations must be in the spirit of the competition. Inspectors will have final say in what is considered “non-functional.” Unless otherwise specified below, non-functional decorations are governed by all standard Robot rules.\n\nTo be considered “non-functional,” any guards, decals, or other decorations must be backed by legal materials that provide the same functionality. For example, if a Robot has a giant decal that prevents Triballs from falling out of the Robot, the decal must be backed by VEX material that would also prevent the Triballs from falling out. A simple way to check this is to determine if removing the decoration would impact the performance of the Robot in any way.",
+            "main": "**Decorations are allowed.** Teams may add non-functional decorations, provided that they do not affect Robot performance in any significant way or affect the outcome of the Match. These decorations must be in the spirit of the competition. Inspectors will have final say in what is considered \"non-functional.\" Unless otherwise specified below, non-functional decorations are governed by all standard Robot rules.\n\nTo be considered \"non-functional,\" any guards, decals, or other decorations must be backed by legal materials that provide the same functionality. For example, if a Robot has a giant decal that prevents Triballs from falling out of the Robot, the decal must be backed by VEX material that would also prevent the Triballs from falling out. A simple way to check this is to determine if removing the decoration would impact the performance of the Robot in any way.",
             "a": "Anodizing and painting of parts is considered a legal nonfunctional decoration.",
             "b": "Small cameras are permitted as non-functional decorations, provided that any transmitting functions or wireless communications are disabled. Unusually large cameras being used as ballast are not permitted.",
             "c": "VEX electronics may not be used as non-functional decorations.",
-            "d": "Decorations that visually mimic Field Elements, or could otherwise interfere with an opponent’s Vision Sensor, are considered functional and are not permitted. The Inspector and Head Referee will make the final decision on whether a given decoration or mechanism violates this rule.",
+            "d": "Decorations that visually mimic Field Elements, or could otherwise interfere with an opponent's Vision Sensor, are considered functional and are not permitted. The Inspector and Head Referee will make the final decision on whether a given decoration or mechanism violates this rule.",
             "e": "Internal power sources (e.g., for a small blinking light) are permitted, provided that no other rules are violated and this source only provides power to the non-functional decoration (i.e., does not directly or indirectly influence any functional portions of the Robot).",
-            "f": "Decorations which provide feedback to the Robot (e.g., by influencing legal sensors) would be considered “functional,” and are not permitted.",
+            "f": "Decorations which provide feedback to the Robot (e.g., by influencing legal sensors) would be considered \"functional,\" and are not permitted.",
             "g": "Decorations which provide visual feedback to Drive Team Members (e.g., decorative lighting) are permitted, provided that they do not violate any other rules and serve no other function (e.g., structural support)."
         },
         "R9": {
@@ -303,7 +303,7 @@
                 "main": "Robots must use plates that match their Alliance color for each Match (i.e., red Alliance Robots must have their red plates on for the Match). It must be abundantly clear which color Alliance the Robot belongs to.",
                 "i": "If both colors of License Plates are mounted on a Robot, then the incorrect color must be covered, taped over, or otherwise obscured. Since License Plates are considered non-functional decorations, this is a legal non-functional use of tape."
             },
-            "b": "License Plates are considered non-functional decorations (per <R8>), and must fulfill all relevant Robot rules (e.g., they must fit within the 18” cube, cannot functionally change the stability or rigidity of the Robot, cause Entanglement, etc.)",
+            "b": "License Plates are considered non-functional decorations (per <R8>), and must fulfill all relevant Robot rules (e.g., they must fit within the 18\" cube, cannot functionally change the stability or rigidity of the Robot, cause Entanglement, etc.)",
             "c": "Team numbers must be in white font, and clearly legible.",
             "d": "License Plates must be at least 2.48 inches (63.2mm) tall and 4.48 inches (114mm) wide, i.e., at least the height/width dimensions of the plates in the VRC License Plate Kit."
         },
@@ -338,14 +338,14 @@
             },
             "b": "Teams must use the latest official VEXos firmware updates, found at https://link.vex.com/ firmware. Custom firmware modifications are not permitted.",
             "c": {
-                "main": "Teams may make the following modifications to the V5 Smart Motor’s user-serviceable features. This list is all-inclusive; no other modifications are permitted. Where applicable, the components listed below (in the specific applications listed below) are permissible exceptions to <R20>.",
+                "main": "Teams may make the following modifications to the V5 Smart Motor's user-serviceable features. This list is all-inclusive; no other modifications are permitted. Where applicable, the components listed below (in the specific applications listed below) are permissible exceptions to <R20>.",
                 "i": "Replacing the gear cartridge with other official cartridges.",
                 "ii": "Removing or replacing the screws from the V5 Smart Motor Cap (276-6780).",
                 "iii": "Removing or replacing the threaded mounting inserts (276-6781).",
                 "iv": "Aesthetic/non-functional labeling (e.g., markers, stickers, paint, etc.)."
             },
-            "d": "V5 Smart Motors (11W) must use an official VEX V5 gear cartridge. For the purposes of this rule, the gear cartridges found within the V5 Smart Motor are considered “part of the motor.” Therefore, any physical or functional modifications to official gear cartridges is not permitted. 11w V5 Smart Motors may only use official VEX motor cartridges",
-            "e": "For the purposes of this rule, the V5 Smart Motor Cap is not considered “part of the motor.” Therefore, <R15> applies."
+            "d": "V5 Smart Motors (11W) must use an official VEX V5 gear cartridge. For the purposes of this rule, the gear cartridges found within the V5 Smart Motor are considered \"part of the motor.\" Therefore, any physical or functional modifications to official gear cartridges is not permitted. 11w V5 Smart Motors may only use official VEX motor cartridges",
+            "e": "For the purposes of this rule, the V5 Smart Motor Cap is not considered \"part of the motor.\" Therefore, <R15> applies."
         },
         "R15": {
             "main": "**Most modifications to non-electrical components are allowed.** Physical modifications, such as bending or cutting, of legal metal structure or plastic components are permitted.",
@@ -371,38 +371,38 @@
             "main": "**Give the radio some space.** The V5 Radio must be mounted such that no metal surrounds the radio symbol on the V5 Radio."
         },
         "R18": {
-            "main": "**A limited amount of custom plastic is allowed.** Robots may use custom-made parts cut from certain types of non-shattering plastic. It must be possible to have cut all of the plastic parts on the Robot from a single 12” x 24” sheet, up to 0.070” thick.",
-            "a": "The intent of the area/thickness constraints is to limit the number of custom plastic parts used in Robot construction, not to define an absolute volume. For example, using a sheet which is 0.035” thick does not permit two 12” x 24” sheets’ worth of parts.",
+            "main": "**A limited amount of custom plastic is allowed.** Robots may use custom-made parts cut from certain types of non-shattering plastic. It must be possible to have cut all of the plastic parts on the Robot from a single 12\" x 24\" sheet, up to 0.070\" thick.",
+            "a": "The intent of the area/thickness constraints is to limit the number of custom plastic parts used in Robot construction, not to define an absolute volume. For example, using a sheet which is 0.035\" thick does not permit two 12\" x 24\" sheets' worth of parts.",
             "b": {
-                "main": "Plastic parts do not have to be literally cut from the same original 12” x 24” sheet. However, all individual parts must be able to “nest” or rearrange into a 12” x 24” area. ",
-                "i": "A collection of parts which theoretically have a total surface area of 288 in2, but cannot be nested onto a single 12” x 24” sheet, would not be legal. See Figure 35."
+                "main": "Plastic parts do not have to be literally cut from the same original 12\" x 24\" sheet. However, all individual parts must be able to \"nest\" or rearrange into a 12\" x 24\" area. ",
+                "i": "A collection of parts which theoretically have a total surface area of 288 in2, but cannot be nested onto a single 12\" x 24\" sheet, would not be legal. See Figure 35."
             },
             "c": "Plastic may be mechanically altered by cutting, drilling, bending, etc. It cannot be chemically treated, melted, or cast. Heating polycarbonate to aid in bending is acceptable.",
             "d": "Legal plastic types include polycarbonate (Lexan), acetal monopolymer (Delrin), acetal copolymer (Acetron GP), POM (acetal), ABS, PEEK, PET, HDPE, LDPE, Nylon (all grades), Polypropylene, and FEP.",
             "e": "Shattering plastic, such as PMMA (also called Plexiglass, Acrylic, or Perspex), is prohibited",
-            "f": "The PET Sheet Variety Pack (276-8340), sold by VEX, is considered “plastic” in the context of this rule, and is subject to the same limitations as “off-the-shelf” plastic sheets.",
+            "f": "The PET Sheet Variety Pack (276-8340), sold by VEX, is considered \"plastic\" in the context of this rule, and is subject to the same limitations as \"off-the-shelf\" plastic sheets.",
             "g": "This rule does not apply to 3D printed plastic parts. 3D printed parts are not permitted in the VEX Robotics Competition, except as non-functional decorations (per <R8>) or as custom License Plates (per <R9>).",
-            "note": "The phrase “as cut from a single 12” x 24” sheet” is intended to mean that all individual plastic pieces must be able to theoretically “nest” or rearrange into a 12” x 24” area. The plastic pieces do not have to be cut from the same original 12” x 24” sheet. Teams are encouraged to “map” plastic use on a 12”x24” sheet of paper for reference at tournament inspection."
+            "note": "The phrase \"as cut from a single 12\" x 24\" sheet\" is intended to mean that all individual plastic pieces must be able to theoretically \"nest\" or rearrange into a 12\" x 24\" area. The plastic pieces do not have to be cut from the same original 12\" x 24\" sheet. Teams are encouraged to \"map\" plastic use on a 12\"x24\" sheet of paper for reference at tournament inspection."
         },
         "R19": {
             "main": "**A limited amount of tape is allowed.** Robots may use a small amount of tape for the following purposes:",
             "a": "To secure any connection between the ends of two (2) VEX cables.",
             "b": "To label wires and motors.",
-            "c": "To cover the backs of license plates (i.e., hiding the “wrong color”).",
+            "c": "To cover the backs of license plates (i.e., hiding the \"wrong color\").",
             "d": "To prevent leaks on the threaded portions of pneumatic fittings. This is the only acceptable use of Teflon tape.",
-            "e": "In any other application that would be considered a “non-functional decoration” per <R8>."
+            "e": "In any other application that would be considered a \"non-functional decoration\" per <R8>."
         },
         "R20": {
             "main": "**Certain non-VEX fasteners are allowed.** Robots may use the following commercially available hardware:",
-            "a": "#4, #6, #8, M3, M3.5, or M4 screws up to 2.5” (63.5mm) long.",
-            "b": "Shoulder screws cannot have a shoulder length over 0.20” or a diameter over 0.176”.",
-            "c": "Any commercially available nut, washer, standoff, and/or non-threaded spacer up to 2.5” (63.5mm) long which fits these screws."
+            "a": "#4, #6, #8, M3, M3.5, or M4 screws up to 2.5\" (63.5mm) long.",
+            "b": "Shoulder screws cannot have a shoulder length over 0.20\" or a diameter over 0.176\".",
+            "c": "Any commercially available nut, washer, standoff, and/or non-threaded spacer up to 2.5\" (63.5mm) long which fits these screws."
         },
         "R21": {
-            "main": "**New VEX parts are legal.** Additional VEX components released during the competition season on www.vexrobotics.com are considered legal for use unless otherwise noted.\n\nSome “new” components may have certain restrictions placed on them upon their release. These restrictions will be documented in the official Q&A, in a Game Manual Update, or on their respective product web pages."
+            "main": "**New VEX parts are legal.** Additional VEX components released during the competition season on www.vexrobotics.com are considered legal for use unless otherwise noted.\n\nSome \"new\" components may have certain restrictions placed on them upon their release. These restrictions will be documented in the official Q&A, in a Game Manual Update, or on their respective product web pages."
         },
         "R22": {
-            "main": "**Pneumatics are limited.** A Robot’s pneumatic subsystem must satisfy the following criteria:",
+            "main": "**Pneumatics are limited.** A Robot's pneumatic subsystem must satisfy the following criteria:",
             "a": "Teams may use a maximum of two (2) legal VEX pneumatic air reservoirs on a Robot.",
             "b": "Pneumatic devices may be charged to a maximum of 100 psi.",
             "c": "The compressed air contained inside a pneumatic subsystem can only be used to actuate legal pneumatic devices (e.g., cylinders)."
@@ -428,7 +428,7 @@
             "main": "**Keep the power button accessible.** The on/off button on the V5 Robot Brain must be accessible without moving or lifting the Robot. All screens and/or lights must also be easily visible by competition personnel to assist in diagnosing Robot problems."
         },
         "R26": {
-            "main": "**Use a “Competition Template” for programming.** The Robot must be programmed to follow control directions provided by the VEXnet Field Controllers or Smart Field Control system.\n\nDuring the Autonomous Period, Drive Team Members will not be allowed to use their V5 Controllers. As such, Teams are responsible for programming their Robot with custom software if they want to perform in the Autonomous Period. Robots must be programmed to follow control directions provided by the field controls (i.e., ignore wireless input during the Autonomous Period, disable at the end of the Driver Controlled Period, etc.).\n\nTeams must use a provided “competition template” or functional equivalent to accomplish this. This will be tested in inspection, where Robots will be required to pass a functional “enable/disable” test. For more information on this, Teams should consult the help guides produced by the developers of their chosen programming software."
+            "main": "**Use a \"Competition Template\" for programming.** The Robot must be programmed to follow control directions provided by the VEXnet Field Controllers or Smart Field Control system.\n\nDuring the Autonomous Period, Drive Team Members will not be allowed to use their V5 Controllers. As such, Teams are responsible for programming their Robot with custom software if they want to perform in the Autonomous Period. Robots must be programmed to follow control directions provided by the field controls (i.e., ignore wireless input during the Autonomous Period, disable at the end of the Driver Controlled Period, etc.).\n\nTeams must use a provided \"competition template\" or functional equivalent to accomplish this. This will be tested in inspection, where Robots will be required to pass a functional \"enable/disable\" test. For more information on this, Teams should consult the help guides produced by the developers of their chosen programming software."
         },
         "R27": {
             "main": "**There is a difference between accidentally and willfully violating a Robot rule.** Any violation of Robot rules, accidental or intentional, will result in a Team being unable to play until they pass inspection (per <R3d>).\n\nHowever, Teams who intentionally and/or knowingly circumvent or violate rules to gain an advantage over their fellow competitors are in violation of the spirit and ethos of the competition. Any Violation of this sort may be considered a violation of <G1> and/or the REC Foundation Code of Conduct."
@@ -437,8 +437,8 @@
             "main": "**Head Referees have ultimate and final authority on all gameplay ruling decisions during the competition.**",
             "a": "Scorekeeper Referees score the Match, and may serve as observers or advisers for Head Referees, but may not determine any rules or infractions directly.",
             "b": "When issuing a Major Violation or Minor Violation to a Team, Head Referees must provide the rule number of the specific rule that has been Violated, and record the Violation on the Match Anomaly Log",
-            "c": "Violations of the REC Foundation Code of Conduct may involve additional escalation beyond a Head Referee’s initial ruling, including (but not limited to) investigation by an REC Foundation representative. Rules <S1>, <G1>, and <G2> are the only rules for which this escalation may be required.",
-            "d": "Event Partners may not overrule a Head Referee’s decision.",
+            "c": "Violations of the REC Foundation Code of Conduct may involve additional escalation beyond a Head Referee's initial ruling, including (but not limited to) investigation by an REC Foundation representative. Rules <S1>, <G1>, and <G2> are the only rules for which this escalation may be required.",
+            "d": "Event Partners may not overrule a Head Referee's decision.",
             "e": "Every Qualification Match and Elimination Match must be watched by a Head Referee."
         },
         "T2": {
@@ -449,7 +449,7 @@
             "note": "Scorekeeper Referees must be at least 15 years of age, and must be approved by the Event Partner."
         },
         "T3": {
-            "main": "**The Drive Team is permitted to immediately appeal a Head Referee’s ruling.** If Drive Team Members wish to dispute a score or ruling, they must stay in the Alliance Station until the Head Referee from the Match talks with them. The Head Referee may choose to meet with the Drive Team Members at another location and/or at a later time so that the Head Referee has time to reference materials or resources to help with the decision. Once the Head Referee announces that their decision has been made final, the issue is over and no more appeals may be made (See rule <T1>).\n\nCommunication and conflict resolution skills are an important life skill for Students to practice and learn. In VEX Robotics Competitions, we expect Students to practice proper conflict resolution using the proper chain of command. Violations of this rule may be considered a Violation of <G1> and/or the Code of Conduct.",
+            "main": "**The Drive Team is permitted to immediately appeal a Head Referee's ruling.** If Drive Team Members wish to dispute a score or ruling, they must stay in the Alliance Station until the Head Referee from the Match talks with them. The Head Referee may choose to meet with the Drive Team Members at another location and/or at a later time so that the Head Referee has time to reference materials or resources to help with the decision. Once the Head Referee announces that their decision has been made final, the issue is over and no more appeals may be made (See rule <T1>).\n\nCommunication and conflict resolution skills are an important life skill for Students to practice and learn. In VEX Robotics Competitions, we expect Students to practice proper conflict resolution using the proper chain of command. Violations of this rule may be considered a Violation of <G1> and/or the Code of Conduct.",
             "a": "Head Referees may not review any photo or video Match recordings when determining a score or ruling.",
             "b": "Head Referees are the only individuals permitted to explain a rule, Disqualification, Violation, warning, or other penalty to the Teams. Teams should never consult other field personnel, including Scorekeeper Referees, regarding a ruling clarification."
         },
@@ -457,29 +457,29 @@
             "main": "**The Event Partner has ultimate authority regarding all non-gameplay decisions during an event.** The Game Manual is intended to provide a set of rules for successfully playing VRC Over Under; it is not intended to be an exhaustive compilation of guidelines for running a VEX Robotics Competition event. Rules such as, but not limited to, the following examples are at the discretion of the Event Partner and should be treated with the same respect as the Game Manual.\n\n\u2022 Venue access\n\n\u2022 Pit spaces\n\n\u2022 Health and safety\n\n\u2022 Team registration and/or competition eligibility\n\n\u2022 Team conduct away from competition fields"
         },
         "T5": {
-            "main": "**A Team’s Robot and/or Drive Team Member should attend every Match.** A Robot or a Student member of the Team must report to the field for the Team’s assigned Match, even if the Robot is not functional. If no Student Drive Team Members report to the field, the Team will be considered a “noshow” and receive zero (0) WP’s, AP’s, and SP’s."
+            "main": "**A Team's Robot and/or Drive Team Member should attend every Match.** A Robot or a Student member of the Team must report to the field for the Team's assigned Match, even if the Robot is not functional. If no Student Drive Team Members report to the field, the Team will be considered a \"noshow\" and receive zero (0) WP's, AP's, and SP's."
         },
         "T6": {
             "main": "**Robots at the field must be ready to play.** If a Team brings their Robot to the field, it must be prepared to play (i.e., batteries charged, sized within the starting size constraint, displaying only the correct Alliance-color license plates, etc.).",
             "a": "Teams who use VEX pneumatics must have their systems charged before they place the Robot on the field.",
-            "b": "Robots must be placed on the field promptly. Repeated failure to do so could result in a violation of <G1>. The exact definition of the term “promptly” is at the discretion of the Head Referee and Event Partner, who will consider event schedule, previous warnings or delays, etc.",
-            "c": "If a Robot is delaying the scheduled start of a Match, it may be removed from the field at the discretion of the Head Referee and Event Partner. A Drive Team Member may remain at the field so that the Team does not get assessed a “no-show” (per <T5>)."
+            "b": "Robots must be placed on the field promptly. Repeated failure to do so could result in a violation of <G1>. The exact definition of the term \"promptly\" is at the discretion of the Head Referee and Event Partner, who will consider event schedule, previous warnings or delays, etc.",
+            "c": "If a Robot is delaying the scheduled start of a Match, it may be removed from the field at the discretion of the Head Referee and Event Partner. A Drive Team Member may remain at the field so that the Team does not get assessed a \"no-show\" (per <T5>)."
         },
         "T7": {
             "main": "**Match replays are allowed, but rare.** Match replays (i.e., playing a Match over again from its start) must be agreed upon by both the Event Partner and Head Referee, and will only be issued in the most extreme circumstances. Some example situations that may warrant a Match replay are as follows:",
             "a": {
-                "main": "Match Affecting “field fault” issues.",
+                "main": "Match Affecting \"field fault\" issues.",
                 "i": "Game Elements not starting in the correct positions.",
                 "ii": "Tape lines lifting.",
                 "iii": "Field Elements detaching or moving beyond normal tolerances (not as a result of Robot interactions).",
                 "iv": "The Autonomous Period or Driver Controlled Period ending early.",
-                "v": "Field control disconnecting or disabling Robots. Note, this is sometimes confused with a Robot whose motors have overheated, or bent pins on a controller’s competition port causing intermittent drop-outs. In general, any true field fault will impact both Alliances simultaneously, not one Robot at a time."
+                "v": "Field control disconnecting or disabling Robots. Note, this is sometimes confused with a Robot whose motors have overheated, or bent pins on a controller's competition port causing intermittent drop-outs. In general, any true field fault will impact both Alliances simultaneously, not one Robot at a time."
             },
             "b": {
-                "main": "A V5 Robot Brain lockup that is outside of the Team’s control and results in a complete shutdown of the Robot. To qualify for a Match replay, all of the following criteria must be met:",
+                "main": "A V5 Robot Brain lockup that is outside of the Team's control and results in a complete shutdown of the Robot. To qualify for a Match replay, all of the following criteria must be met:",
                 "i": "The screen on the V5 Brain turning completely white, including the status bar at the top of the screen.",
                 "ii": "The Brain becoming unresponsive to any inputs from Controllers or sensors.",
-                "iii": "The Brain becoming unresponsive to the “power” button on the Brain (i.e., the only way to reboot the Brain is to remove the battery).",
+                "iii": "The Brain becoming unresponsive to the \"power\" button on the Brain (i.e., the only way to reboot the Brain is to remove the battery).",
                 "iv": "All connected devices not showing a solid red light at their Smart Port connections (i.e., blinking or off)."
             },
             "c": {
@@ -493,7 +493,7 @@
             "main": "**Disqualifications.** When a Team receives a Disqualification in a Qualification Match, they receive zero (0) Win Points, Autonomous Win Points, Autonomous Points, and Strength of Schedule Points.\n\nWhen a Team is Disqualified in an Elimination Match, the entire Alliance is Disqualified; they receive a loss for the Match, and the opposing Alliance is awarded the win. If both Alliances receive a Disqualification in an Elimination Match, both Alliances receive a loss and will play another Match to determine a winner.",
             "a": {
                 "main": "If the Team receiving the Disqualification is on the winning Alliance, then Teams on the opposing Alliance who are not also Disqualified will receive the win for the Match and two (2) WP.",
-                "i": "The Team’s non-Disqualified Alliance Partner is unaffected, i.e. they will receive the win for the Match and two (2) WP."
+                "i": "The Team's non-Disqualified Alliance Partner is unaffected, i.e. they will receive the win for the Match and two (2) WP."
             },
             "b": "If the Match was a tie, then each Team on the opposing Alliance (the Alliance that did not receive the Disqualification) will receive the win for the Match and two (2) WP. If both Alliances have a Team receiving a Disqualification, then all non-Disqualified Teams will receive a tie for the Match and one (1) WP.",
             "c": "Autonomous Win Points are not given to Teams that receive a Disqualification, and are not automatically awarded to the opposing Alliance.",
@@ -503,16 +503,16 @@
             "main": "**Each Elimination Alliance gets one Time Out.** Each Alliance may request one (1) Time Out during the Elimination Bracket between Elimination Matches, as permitted by the Head Referee and Event Partner. Alliances may not use their Time Out during a Match."
         },
         "T10": {
-            "main": "**Be prepared for minor field variance.** Field Element tolerances may vary from nominal by up to ±1.0”, unless otherwise specified in this Game Manual, Official Q&A, or Appendix A. Triball weights may vary from nominal by up to ±20 grams. Teams are encouraged to design their Robots accordingly. Please make sure to check Appendix A for more specific nominal dimensions and tolerances.\n\nTriball placement at the beginning of Matches may vary from nominal by up to ±1” (25.4mm). The rotation of Triballs is not specified."
+            "main": "**Be prepared for minor field variance.** Field Element tolerances may vary from nominal by up to ±1.0\", unless otherwise specified in this Game Manual, Official Q&A, or Appendix A. Triball weights may vary from nominal by up to ±20 grams. Teams are encouraged to design their Robots accordingly. Please make sure to check Appendix A for more specific nominal dimensions and tolerances.\n\nTriball placement at the beginning of Matches may vary from nominal by up to ±1\" (25.4mm). The rotation of Triballs is not specified."
         },
         "T11": {
-            "main": "**Fields may be repaired at the Event Partner’s discretion.** All competition fields at an event must be set up in accordance with the specifications in Appendix A and/or other applicable Appendices. Minor aesthetic customizations or repairs are permitted, provided that they do not impact gameplay (see <T4>).\n\nExamples of permissible modifications include, but are not limited to:\n\n\u2022 Applying threadlocker to Field Element mounting hardware\n\n\u2022 Taping over a hole in a damaged Net\n\n\u2022 Using non-VEX white electrical tape to add required lines to the field\n\nExamples of prohibited modifications include, but are not limited to:\n\n\u2022 Unofficial field perimeter walls, additional structural elements inside of the field perimeter, or unofficial/replica Field Elements\n\n\u2022 Additional VEX structural parts attached to a Field Element\n\n\u2022 An unofficial replacement net\n\n\u2022 Replacing the opaque field walls on the VEX Portable Competition Field Perimeter with transparent panels\n\nAny specific repairs and/or modifications which pertain to the current season’s game will be documented in this rule and Appendix A, as needed."
+            "main": "**Fields may be repaired at the Event Partner's discretion.** All competition fields at an event must be set up in accordance with the specifications in Appendix A and/or other applicable Appendices. Minor aesthetic customizations or repairs are permitted, provided that they do not impact gameplay (see <T4>).\n\nExamples of permissible modifications include, but are not limited to:\n\n\u2022 Applying threadlocker to Field Element mounting hardware\n\n\u2022 Taping over a hole in a damaged Net\n\n\u2022 Using non-VEX white electrical tape to add required lines to the field\n\nExamples of prohibited modifications include, but are not limited to:\n\n\u2022 Unofficial field perimeter walls, additional structural elements inside of the field perimeter, or unofficial/replica Field Elements\n\n\u2022 Additional VEX structural parts attached to a Field Element\n\n\u2022 An unofficial replacement net\n\n\u2022 Replacing the opaque field walls on the VEX Portable Competition Field Perimeter with transparent panels\n\nAny specific repairs and/or modifications which pertain to the current season's game will be documented in this rule and Appendix A, as needed."
         },
         "T12": {
             "main": "**The red Alliance places last.** The red Alliance has the right to place its Robots on the field last in both Qualification Matches and Elimination Matches. Once a Team has placed its Robot on the field, its position cannot be readjusted prior to the Match. If a Team chooses to reposition their Robot after it has already been placed, the opposing Alliance will also be given the opportunity to reposition their Robots promptly."
         },
         "T13": {
-            "main": "**Qualification Matches follow the Match schedule.** A Qualification Match Schedule will be available on the day of competition. The Match Schedule will indicate Alliance partners, Match pairings, and Alliance colors for each Match. For tournaments with multiple fields, the schedule will indicate which field each Match will take place on. The Match Schedule is subject to change at the Event Partner’s discretion. Any multi-division event must be approved by the REC Foundation EEM/RSM prior to the event, and divisions must be assigned in sequential order by Team number."
+            "main": "**Qualification Matches follow the Match schedule.** A Qualification Match Schedule will be available on the day of competition. The Match Schedule will indicate Alliance partners, Match pairings, and Alliance colors for each Match. For tournaments with multiple fields, the schedule will indicate which field each Match will take place on. The Match Schedule is subject to change at the Event Partner's discretion. Any multi-division event must be approved by the REC Foundation EEM/RSM prior to the event, and divisions must be assigned in sequential order by Team number."
         },
         "T14": {
             "main": "**Each Team will have at least six Qualification Matches**",
@@ -520,11 +520,11 @@
             "b": "When in a league, there must be at least three (3) league ranking sessions, with at least one (1) week between sessions. Each session must have a minimum of two (2) Qualification Matches per Team. The suggested amount of Qualification Matches per Team for a standard league ranking session is four (4). Leagues will have a championship session where elimination rounds will be played. Event Partners may choose to have Qualification Matches as part of their championship session."
         },
         "T15": {
-            "main": "**Qualification Matches contribute to a Team’s ranking for Alliance Selection**",
+            "main": "**Qualification Matches contribute to a Team's ranking for Alliance Selection**",
             "a": "When in a tournament, every Team will be ranked based on the same number of Qualification Matches.",
             "b": "When in a league, every Team will be ranked based on the number of Matches played. Teams that participate at least 60% of the total Matches available will be ranked above Teams that participate in less than 60% of the total Matches available; e.g., if the league offers 3 ranking sessions with 4 Qualification Matches per Team, teams that participate in 8 or more Matches will be ranked higher than Teams who participate in 7 or fewer Matches. Being a no-show to a Match that a Team is scheduled in still constitutes participation for these calculations.",
             "c": {
-                "main": "In some cases, a Team will be asked to play an additional Qualification Match. The extra Match will be identified on the Match Schedule with an asterisk; WP’s, AP’s, and SP’s for that Qualification Match will not impact a Team’s ranking, and will not affect participation percentage for leagues.",
+                "main": "In some cases, a Team will be asked to play an additional Qualification Match. The extra Match will be identified on the Match Schedule with an asterisk; WP's, AP's, and SP's for that Qualification Match will not impact a Team's ranking, and will not affect participation percentage for leagues.",
                 "i": "Teams are reminded that <G1> is always in effect and Teams are expected to behave as if the additional Qualification Match counted.",
                 "ii": "In Leagues, Teams may have a different number of Qualification Matches. Rankings are determined by the Win Percentage, which is the number of wins divided by the number of Qualification Matches that Teams has played."
             }
@@ -542,23 +542,23 @@
             "main": "**Send a Student representative to Alliance Selection.** Each Team must send one (1) Student representative to the playing field (or other designated area) to participate in Alliance Selection. If the Team Representative fails to report in for Alliance Selection, their Team will be ineligible for participation in the Alliance Selection process."
         },
         "T18": {
-            "main": "**Each Team may only be invited once to join one Alliance.** If a Team representative declines an Alliance Captain’s invitation during Alliance Selection, that Team is no longer eligible to be selected by another Alliance Captain. However, they are still eligible to play Elimination Matches as an Alliance Captain.\n\nFor example:\n\n\u2022 Alliance Captain 1 invites Team ABC to join their Alliance.\n\n\u2022 Team ABC declines the invitation\n\n\u2022 No other Alliance Captains may invite Team ABC to join their Alliance.\n\n\u2022 However, Team ABC may still form their own Alliance, if Team ABC ranked high enough after Qualification Matches to become an Alliance Captain."
+            "main": "**Each Team may only be invited once to join one Alliance.** If a Team representative declines an Alliance Captain's invitation during Alliance Selection, that Team is no longer eligible to be selected by another Alliance Captain. However, they are still eligible to play Elimination Matches as an Alliance Captain.\n\nFor example:\n\n\u2022 Alliance Captain 1 invites Team ABC to join their Alliance.\n\n\u2022 Team ABC declines the invitation\n\n\u2022 No other Alliance Captains may invite Team ABC to join their Alliance.\n\n\u2022 However, Team ABC may still form their own Alliance, if Team ABC ranked high enough after Qualification Matches to become an Alliance Captain."
         },
         "T19": {
             "main": "**Elimination Matches follow the Elimination Bracket.** A sixteen (16) Alliance bracket plays as shown in Figure 37:\n\nIf an event is run with fewer than sixteen (16) Alliances, then they will use the bracket shown above, with Byes awarded when there is no applicable Alliance. For example, in a tournament with twelve (12) Alliances, Alliances 1, 2, 3, & 4 would automatically advance to the Quarterfinals.\n\nThus, an eight (8) Alliance bracket would run as shown in Figure 38:"
-        }
-        ,"T20": {
-            "main": "**Elimination Matches are a blend of “Best of 1” and “Best of 3.”** “Best of 1” means that the winning Alliance in each Match advances to the next round of the Elimination Bracket. “Best of 3” means that the first Alliance to reach two wins will advance.\n\nSee the Flowchart in Figure 39 for more information."
+        },
+        "T20": {
+            "main": "**Elimination Matches are a blend of \"Best of 1\" and \"Best of 3.\"** \"Best of 1\" means that the winning Alliance in each Match advances to the next round of the Elimination Bracket. \"Best of 3\" means that the first Alliance to reach two wins will advance.\n\nSee the Flowchart in Figure 39 for more information."
         },
         "T21": {
             "main": "**Small tournaments may have fewer Alliances.** The number of Alliances for a given event is determined as follows:"
         },
         "T22": {
-            "main": "**Fields at an event must be consistent with each other.** There are many types of permissible aesthetic and/or logistical modifications that may be made to competition fields at the Event Partner’s discretion. If an event has multiple Head-to-Head competition fields, they must all incorporate the same permissible/applicable modifications. For example, if one field is elevated, then all Head-to-Head competition fields must be elevated to the same height.\n\nExamples of these modifications may include, but are not limited to:\n\n\u2022 Elevating the playing field off of the floor (common heights are 12” to 24” [30.5cm to 61cm])\n\n\u2022 Field control systems (see <T23>)\n\n\u2022 Field display monitors\n\n\u2022 Field perimeter decorations (e.g., LED lights, sponsor decals on polycarbonate panels)\n\n\u2022 Field perimeter type (see <T24>)\n\n\u2022 Utilizing the VEX GPS Field Code Strips",
+            "main": "**Fields at an event must be consistent with each other.** There are many types of permissible aesthetic and/or logistical modifications that may be made to competition fields at the Event Partner's discretion. If an event has multiple Head-to-Head competition fields, they must all incorporate the same permissible/applicable modifications. For example, if one field is elevated, then all Head-to-Head competition fields must be elevated to the same height.\n\nExamples of these modifications may include, but are not limited to:\n\n\u2022 Elevating the playing field off of the floor (common heights are 12\" to 24\" [30.5cm to 61cm])\n\n\u2022 Field control systems (see <T23>)\n\n\u2022 Field display monitors\n\n\u2022 Field perimeter decorations (e.g., LED lights, sponsor decals on polycarbonate panels)\n\n\u2022 Field perimeter type (see <T24>)\n\n\u2022 Utilizing the VEX GPS Field Code Strips",
             "note": "If an event has dedicated fields for Skills Challenge Matches, there is no requirement for them to have the same consistent modifications as the Head-to-Head fields. See <RSC6> for more details."
         },
         "T23": {
-            "main": "**There are three types of field control that may be used:**\n\n1. A VEXnet Field Controller, which connects to a Controller’s competition port via Cat-5 cable.\n\n2. A V5 Event Brain, which connects to a Controller via Smart Cable\n\n3. A VEXnet Competition Switch, which connects to a Controller’s competition port via Cat-5 cable, may only be used in Practice Matches or Robot Skills Matches, and only under extreme circumstances.\n\nIf an event has multiple fields, then all fields of the same game type must use the same control system, in accordance with <T23> and <RSC6>. For example, it would be permissible for Head-to-Head competition fields to use V5 Event Brains, and for Skills Challenge fields to use VEXnet Field Controllers. However, it would not be permissible for one Head-to-Head field to use a V5 Event Brain while another Head-to-Head field uses a VEXnet Field Controller.",
+            "main": "**There are three types of field control that may be used:**\n\n1. A VEXnet Field Controller, which connects to a Controller's competition port via Cat-5 cable.\n\n2. A V5 Event Brain, which connects to a Controller via Smart Cable\n\n3. A VEXnet Competition Switch, which connects to a Controller's competition port via Cat-5 cable, may only be used in Practice Matches or Robot Skills Matches, and only under extreme circumstances.\n\nIf an event has multiple fields, then all fields of the same game type must use the same control system, in accordance with <T23> and <RSC6>. For example, it would be permissible for Head-to-Head competition fields to use V5 Event Brains, and for Skills Challenge fields to use VEXnet Field Controllers. However, it would not be permissible for one Head-to-Head field to use a V5 Event Brain while another Head-to-Head field uses a VEXnet Field Controller.",
             "note": "Event Partners may only use the official, unmodified version of Tournament Manager along with approved hardware and networking solutions found in the REC Library. Using non-standard software and hardware will not be supported by the REC Foundation or VEX Robotics and is done at your own risk. For questions, please contact your REC Foundation Manager."
         },
         "T24": {
@@ -566,7 +566,7 @@
             "note": "See <RSC6> for more details specific to Skills Challenge fields."
         },
         "RSC1": {
-            "main": "All rules from “The Game” section of the manual apply to the Robot Skills Challenge, unless otherwise specified."
+            "main": "All rules from \"The Game\" section of the manual apply to the Robot Skills Challenge, unless otherwise specified."
         },
         "RSC2": {
             "main": "Robots may start the Robot Skills Match in any legal starting location for either Alliance.",
@@ -583,7 +583,7 @@
             "main": "Teams may utilize the forty-four (44) Match Load Triballs within the guidelines set forth by <SG5>.",
             "a": "Match Load Triballs begin the match in the red Alliance Station.",
             "b": "Match Load Triballs must be introduced from the red Alliance Station per <SG6>.",
-            "c": "Match Load Triballs may be introduced during Autonomous Coding Skills Matches (i.e. the “Note” in rule <SG6> does not apply). Using sensors to detect legally-entered Match Load Triballs is not considered a violation of rule <G11>."
+            "c": "Match Load Triballs may be introduced during Autonomous Coding Skills Matches (i.e. the \"Note\" in rule <SG6> does not apply). Using sensors to detect legally-entered Match Load Triballs is not considered a violation of rule <G11>."
         },
         "RSC4": {
             "main": "In Robot Skills Matches, Teams play as if they are on the red Alliance.",
@@ -593,7 +593,7 @@
             "d": "Red Alliance Triballs may be scored in the red Offensive Zone, the red Goal, or the blue Goal per <SC5>. Red Alliance Triballs cannot be Scored in the blue Offensive Zone."
         },
         "RSC5": {
-            "main": "Elevation points are awarded based on the Elevation Tier achieved by the Robot at the end of the Match. A Robot’s Elevation Tier is measured by placing the Height Guide vertically next to an Elevated Robot and determining which letter-labeled segment of the Height Guide the lowest point of the Robot falls within. For Robot Skills Matches, tiers are assigned based on the following:\n\n\u2022 Top Tier: H or higher (20 Points)\n\n\u2022 2nd Tier: E-G (15 Points)\n\n\u2022 3rd Tier: B-D (10 Points)\n\n\u2022 4th Tier: A (5 Points)"
+            "main": "Elevation points are awarded based on the Elevation Tier achieved by the Robot at the end of the Match. A Robot's Elevation Tier is measured by placing the Height Guide vertically next to an Elevated Robot and determining which letter-labeled segment of the Height Guide the lowest point of the Robot falls within. For Robot Skills Matches, tiers are assigned based on the following:\n\n\u2022 Top Tier: H or higher (20 Points)\n\n\u2022 2nd Tier: E-G (15 Points)\n\n\u2022 3rd Tier: B-D (10 Points)\n\n\u2022 4th Tier: A (5 Points)"
         },
         "RSC6": {
             "main": "There is no requirement that Skills Challenge fields have the same consistent modifications as the Head-to-Head fields. For example, there is no requirement that all Skills Challenge fields are elevated to the same height as Head-to-Head fields. However, all Skills Challenge fields at a single event must use the same type of field control and field perimeter, as described in rules <T23> and <T24>.\n\nIt is strongly recommended/preferred that all Skills Challenge fields are consistent with each other, but this may not be the case in extreme circumstances.\n\nIn order to use non-conforming Head-to-Head fields for Skills Challenge runs (e.g. during lunch), the following steps should be taken:\n\n\u2022 Teams must be informed that the Head-to-Head fields may have some differences from the Skills Challenge Fields (e.g., they might not have GPS strips).\n\n\u2022 Teams must be given an opportunity to select which type of field they want to use, i.e. they cannot be required to use the Head-to-Head field for any Skills Challenge run."
@@ -604,7 +604,410 @@
     },
     "VIQRC_FV": {
         "SC1": {
-            "main": "test1"
+            "main": "All Scoring statuses are evaluated **after the Match ends**, once all Scored Blocks, Field Elements, and Robots on the Field come to rest.",
+            "a": "This rule's intent is for Driver inputs and Robot motion to cease at the end of the Match, when the Match timer reaches 0:00. A pre-programmed routine which causes Robot motion to continue after the end of the Match would violate the spirit of this rule. Any Scoring which takes place after the Match due to Robots continuing to move will not count."
+        },
+        "SC2": {
+            "main": "All Scoring statuses are evaluated **visually by a Head Referee**, to the best of their ability within the context of a given Match/event.",
+            "a": "Referees and other event staff are not allowed to review any videos or pictures from the Match. See <T3>.",
+            "b": "If there is a concern regarding the score of a Match, only the Drivers from that Match, not an Adult, may share their questions with the Head Referee. See <T3>.",
+            "note": "In cases where a Scoring status is \"too close to call,\" Teams will be given the \"benefit of the doubt,\" and the higher of the two possible Scoring statuses should be assigned. Head Referees will not be expected or required to define a perfect horizontal plane or check imperceptibly small measurements. "
+        },
+        "SC3": {
+            "main": "**A Block is considered Scored in a Goal** if it meets the following criteria:",
+            "a": "The Block is not contacting any Robots.",
+            "b": "The Block is at least partially contained within the infinite vertical projection of the outside surfaces of a Goal.",
+            "c": "The Block is either contacting the Floor within the Goal (i.e., at Fill Level 1), or transitively contacting the Floor via other Scored Blocks."
+        },
+        "SC4": {
+            "main": "A **Goal is considered Uniform** if it meets the following criteria:",
+            "a": "At least two (2) Blocks are Scored in the Goal.",
+            "b": "All Blocks which are Scored in the Goal are of the same type"
+        },
+        "SC5": {
+            "main": "A **Height Bonus** is awarded for the highest Fill Level shared by all three Goals. If the Fill Levels meet the criteria for multiple Height Bonuses, only the highest of those Bonuses will be awarded.\n\nIn cases where a Fill Level is \"too close to call,\" Teams will be given the \"benefit of the doubt,\" and the higher of the two possible Fill Levels should be assigned. Head Referees will not be expected or required to define a perfect horizontal plane within a Goal or check imperceptibly small measurements."
+        },
+        "SC6": {
+            "main": "**Goal Scoring Examples:**"
+        },
+        "SC7": {
+            "main": "Referees will verify if a **Robot is Fully or Partially Parked** by sliding a right-angle tool (such as a VEX IQ beam/plate) along the outside edge of the red PVC pipe or the Field Perimeter. ",
+            "note": "Parking is evaluated independently of all other scoring statuses. For example, the Supply Zone does not need to be Cleared in order for Robots to be considered Parked."
+        },
+        "S1": {
+            "main": "**Stay safe, don't damage the Field.** If, at any time, the Robot operation or Team actions are deemed unsafe or have damaged any Field Elements or Blocks, the offending Team may be Disabled and/or Disqualified at the Head Referee's discretion. The Robot will require re-inspection before it may again take the Field."
+        },
+        "S2": {
+            "main": "**Students must be accompanied by an Adult.** No Student may attend a VEX IQ Robotics Competition event without a responsible Adult supervising them. The Adult must obey all rules and be careful to not violate student-centered policies, but must be present at the event in the case of an emergency. Violations of this rule may result in removal from the event."
+        },
+        "G1": {
+            "main": "**Treat everyone with respect.** All Teams are expected to conduct themselves in a respectful and professional manner while competing in VEX IQ Robotics Competition events. If a Team or any of its members (Students or any Adults associated with the Team) are disrespectful or uncivil to event staff, volunteers, or fellow competitors, they may be Disqualified from a current or upcoming Match. Team conduct pertaining to <G1> may also impact a Team's eligibility for judged awards. Repeated or extreme violations of <G1> could result in a Team being Disqualified from an entire event, depending on the severity of the situation.\n\nThis rule exists alongside the REC Foundation Code of Conduct. Violation of the Code of Conduct can be considered a Major Violation of <G1> and can result in Disqualification from a current Match, an upcoming Match, an entire event, or (in extreme cases) an entire competition season. The Code of Conduct can be found at https://viqc-kb.recf.org/hc/en-us/articles/9778593540247-Code-of-Conduct.",
+            "vnote": "All Violations of <G1> are considered Major Violations and should be addressed on a case-by-case basis. Teams at risk of a <G1> Violation due to multiple disrespectful or uncivil behaviors will usually receive a \"final warning\", although the Head Referee is not required to provide one."
+        },
+        "G2": {
+            "main": "**VIQRC is a student-centered program.** Adults may assist Students in urgent situations, but Adults may never work on or program a Robot without Students on that Team being present and actively participating. Students must be prepared to demonstrate an active understanding of their Robot's construction and programming to judges or event staff.\n\nThis rule operates in tandem with the REC Foundation Student Centered Policy, which is available on the REC Foundation website for Teams to reference throughout the season: https://viqc-kb.recf.org/hc/en-us/articles/9778591033879-Student-Centered-Policy",
+            "vnote": "Potential Violations of this rule will be reviewed on a case-by-case basis. By definition, all Violations of this rule become Score Affecting as soon as a Robot which was built by an Adult wins a Match."
+        },
+        "G3": {
+            "main": "**Use common sense.** When reading and applying the various rules in this document, please remember that common sense always applies in the VEX IQ Robotics Competition."
+        },
+        "G4": {
+            "main": "**The Robot must represent the skill level of the Team.** Each Team must include Drivers, Programmer(s), Designer(s), and Builder(s). No Student may fulfill any of these roles for more than one VEX IQ Robotics Competition Team in a given competition season. Students may have more than one role on the Team, e.g. the Designer may also be the Builder, the Programmer and a Driver.",
+            "a": {
+                "main": "Team members may move from one Team to another for non-strategic reasons outside of the Team's control.",
+                "i": "Examples of permissible moves may include, but are not limited to, illness, changing schools, conflicts within a Team, or combining/splitting Teams.",
+                "ii": "Examples of strategic moves in Violation of this rule may include, but are not limited to, one Programmer \"switching\" Teams in order to write the same program for multiple Robots, or one Student writing the Engineering Notebook for multiple Teams.",
+                "iii": "If a Student leaves a Team to join another Team, <G4> still applies to the Students remaining on the previous Team. For example, if a Programmer leaves a Team, then that Team's Robot must still represent the skill level of the Team without that Programmer. One way to accomplish this would be to ensure that the Programmer teaches or trains a \"replacement\" Programmer in their absence."
+            },
+            "b": {
+                "main": "When a Team qualifies for a Championship event (e.g., States, Nationals, Worlds, etc.) the Students on the Team attending the Championship event are expected to be the same Students on the Team that was awarded the spot. Students can be added as support to the Team, but may not be added as Drivers or Programmers for the Team.",
+                "i": "An exception is allowed if one (1) Driver and/or one (1) Programmer on the Team cannot attend the event. The Team can make a single substitution of a Driver or Programmer for the Championship event with another Student, even if that Student has competed on a different Team. This Student will now be on this new Team and may not substitute back to the original Team."
+            },
+            "vnote": "Violations of this rule will be evaluated on a case-by-case basis, in tandem with the REC Foundation Student Centered Policy as noted in <G2>, and the REC Foundation Code of Conduct as noted in <G1>."
+        },
+        "G5": {
+            "main": "**Robots begin the Match in the starting size.** At the beginning of a Match, each Robot must fit within an 11\" wide x 20\" long x 15\" high (279mm x 483mm x 381mm) volume, as checked during inspection per <R4>.",
+            "vnote": "Any Violation of this rule will result in the Robot being removed from the Field prior to the start of the Match; rules <R3d> and <T6> will apply until the situation is corrected. They will not receive a Disqualification, but they will not be permitted to play in the Match."
+        },
+        "G6": {
+            "main": "**Keep your Robot together.** Robots may not intentionally detach parts or leave mechanisms on the Field during any Match. Parts that become unintentionally detached from the Robot are no longer considered to be part of the Robot and can be either left on the Field or collected by a Driver (utilizing <G10>).",
+            "note": "Adding or replacing mechanisms on a Robot mid-Match (e.g. during a <G10> interaction) is considered a Violation of the intent and spirit of this rule."
+        },
+        "G7": {
+            "main": "**Don't damage the Field.** Robot interactions which damage the Field or any Field Elements are prohibited. For the purpose of this rule, \"damage\" is defined as anything which requires repair in order to begin the next Match, such as causing part of a Goal to detach from the Field.",
+            "vnote": "\n\u2022 In most cases, accidental Field damage should only be considered a Minor Violation / formal warning\n\n\u2022 Accidentally dislodging a Starting Peg is not considered a Major Violation\n\n\u2022 Egregious, intentional, or repeated accidental / Minor Violations may escalate to a Major Violation at the Head Referee's discretion"
+        },
+        "G8": {
+            "main": "Drivers drive your Robot, and stay in the Driver Station. During a Match, Robots may only be operated by that Team's Drivers and/or software running on the Robot's control system. Drivers must remain in their Driver Station, except when legally interacting with their Robot as per <G10>.\n\nDrivers are prohibited from any of the following actions during a Match:",
+            "a": "Bringing/using any sort of communication devices into the Driver Station. Devices with communication features turned off (e.g., a phone in airplane mode) are allowed.",
+            "b": "Standing or sitting on any sort of object during a Match, regardless of whether the Field is on the floor or elevated.",
+            "c": "Materials used outside of the 1:00 Match time are permitted, provided that no other rules are violated. Examples could include a bin to help carry the Robot to the Field, or VEX IQ parts used to help align the Robot at the start of the Match.",
+            "note": "Drivers are the only Team members that are allowed to be in the Driver Station during a Match. Adults (other than event staff) are not permitted to be in the Driver Station during a Match.",
+            "vnote": "Major Violations of this rule are not required to be Score Affecting, and could invoke Violations of other rules, such as <G1>, <G2>, or <G11>"
+        },
+        "G9": {
+            "main": "**Hands out of the Field.** Drivers are prohibited from making intentional contact with any Field Element, Block, or Robot during a Match, except for the allowances in <G10>, <RSC5> and/or <SG3>. "
+        },
+        "G10": {
+            "main": "**Handling the Robot mid-match is allowed under certain circumstances.** If a Robot goes completely outside the playing Field, gets stuck, tips over, or otherwise requires assistance, the Team's Drivers may retrieve & reset the Robot. To do so, they must do the following:",
+            "a": "Signal the Referee by placing their VEX IQ Controller on the ground.",
+            "b": {
+                "main": "Any Blocks being controlled by the Robot while being handled must be removed from the Field.",
+                "i": "In the context of this rule, \"controlled\" implies that the Robot was manipulating the Block, and not simply touching it. For example, if the Block moves with the Robot either vertically or while turning, then the Robot is \"controlling\" the Block."
+            },
+            "c": "The Robot must be placed back into a legal position that meets the criteria listed in <SG1> (i.e., contacting the Field Perimeter, not contacting any Blocks, etc).",
+            "note": "If the Drivers cannot reach the Robot due to the Robot being in the center of the Field, the Drivers may ask the Head Referee to pick up the Robot and hand it to the Drivers for placement according to the conditions above.",
+            "vnote": "This rule is intended to allow Teams to fix damaged Robots or help get their Robots \"out of trouble.\" Strategically exploiting this rule may be considered a Minor Violation or Major Violation at the Head Referee's discretion."
+        },
+        "G11": {
+            "main": "**A Team's two Drivers switch Controllers midway through the Match.** In a given Match, up to two (2) Drivers may be in the Driver Station per Team. The two Drivers must switch their controller between twenty-five seconds (0:25) and thirty-five seconds (0:35) remaining in the Match.",
+            "a": "No Driver shall operate a Robot for more than thirty-five seconds (0:35).",
+            "b": "The second Driver may not touch their Team's controls until the controller is passed to him/her.",
+            "c": "Once the controller is passed, the first Driver may no longer touch their Team's controls.",
+            "note": "If only one Driver is present (i.e., the Team has not exercised the allowance in <G4>), this rule still applies, and they must cease Robot operation after the first thirty-five (0:35) seconds of the Match.",
+            "vnote": "At a minimum, any Violation of this rule is considered a Minor Violation. Whether it escalates to a Major Violation or not is dependent upon the Head Referee's judgment regarding:\n\n\u2022 Prior warnings or Violations\n\n\u2022 Any Score Affecting actions that were a direct result of the Violation, such as the first Driver scoring additional points after 35 seconds of driving"
+        },
+        "SG1": {
+            "main": "**Pre-match setup.** At the beginning of a Match, each Robot must meet the following criteria:",
+            "a": "Not contacting any Blocks, Goals or their supporting structure, Starting Pegs, or other Robots.",
+            "b": "Fit within an 11\" wide x 20\" long x 15\" high (279mm x 508mm x 381mm) volume, as checked during inspection per <R3>.",
+            "c": "Contacting the inside and/or top face of the Field Perimeter wall that is between Goals II and III. See Figure 18.",
+            "d": "Have no motors or other mechanisms in motion or \"running\" until the Match begins.",
+            "note": "There are no specific starting positions, as long as the above criteria are met. Head Referees may ask Teams to temporarily move their Robot between two of the black lines on the Field for a size check, but there is no requirement for them to start the Match in that location once the size has been verified.",
+            "vnote": "Any Violation of this rule will result in the Robot being removed from the Field prior to the start of the Match; rules <R3d> and <T6> will apply until the situation is corrected. They will not receive a Disqualification, but they will not be permitted to play in the Match."
+        },
+        "SG2": {
+            "main": "**Horizontal expansion is limited during a Match.** Robots may not expand horizontally beyond the 11\" x 20\" starting dimension limit at any time during a Match.",
+            "note": "There are no restrictions on vertical expansion."
+        },
+        "SG3": {
+            "main": "**Keep Blocks in the Field.** Blocks that leave the Field during a Match may be returned to the Supply Zone by a Driver or Referee. Any Blocks which remain outside of the Field at the end of a Match will be considered \"in\" the Supply Zone (i.e., the Supply Zone will not be eligible to be Cleared).\n\n\"Leaving the Field\" means that a Block is outside of the Field Perimeter and no longer in contact with the Field, Field Elements, other Blocks, or Robots."
+        },
+        "SG4": {
+            "main": "**Blocks are randomly loaded in the Supply Zone.** Prior to each Match, the Supply Zone will be filled randomly with eight (8) Purple Blocks and twenty-three (23) Green Blocks.",
+            "a": "Blocks will be randomly mixed by a field reset volunteer and/or the Head Referee.",
+            "b": "Blocks must be placed such that one face of each Block is \"flat\" on the Floor (i.e. not \"stacked\" or \"tilted'). See images throughout this Game Manual for examples.",
+            "c": "Team members may not touch Blocks in the Supply Zone during pre-Match setup. Any contact will result in a re-randomization of the Supply Zone by the Head Referee."
+        },
+        "R1": {
+            "main": "**One Robot per Team.** Only one (1) Robot will be allowed to participate per Team at a given event. Though it is expected that Teams will make changes to their Robots at the event, a Team is limited to only one (1) Robot, and a given Robot may only be used by (1) Team. The VEX IQ system is intended to be a mobile robotics design platform. As such, a VEX IQ Robotics Competition Robot, for the purposes of the VEX IQ Robotics Competition, has the following subsystems:\n\n\u2022 Subsystem 1: Mobile robotic base including wheels, tracks, or any other mechanism that allows the Robot to navigate the majority of the flat playing Field surface. For a stationary Robot, the robotic base without wheels would be considered Subsystem 1.\n\n\u2022 Subsystem 2: Power and control system that includes a VEX IQ legal battery, a VEX IQ control system, and associated Smart Motors for the mobile robotic base.\n\n\u2022 Subsystem 3: Additional mechanisms (and associated Smart Motors) that allow manipulation of Blocks or navigation/manipulation of Field Elements.\n\nGiven the above definitions, a minimum Robot for use in any VEX IQ Robotics Competition event (including Skills Challenges) must consist of subsystems 1 and 2 above. Thus, if you are swapping out an entire subsystem 1 or 2, you have now created a second Robot and are no longer legal.\n\n\u2022 Teams may not compete with one Robot while a second is being modified or assembled at a competition.\n\n\u2022 Teams may not have an assembled second Robot on hand at a competition that is used to repair or swap parts with the first Robot.\n\n\u2022 Teams may not switch back and forth between multiple Robots during a competition. This includes using different Robots for Skills Challenge, Qualification Matches, and/or Finals Matches.\n\n\u2022 Multiple Teams may not use the same Robot. Once a Robot has competed under a given Team number at an event, it is \"their\" Robot; no other Teams may compete with it for the duration of the competition season."
+        },
+        "R2": {
+            "main": "**Robots must represent the Team's skill level.** The Robot must be designed, built, and programmed by members of the Team. Adults are permitted to mentor and teach design, building, and programming skills to the Students on the Team, but may not design, build, or program that Team's Robot."
+        },
+        "R3": {
+            "main": "**Robots must pass inspection.** The Team's Robot must pass inspection before being allowed to participate in any Matches. Noncompliance with any Robot design or construction rule will result in removal from Matches or Disqualification of the Robot at an event until the Robot is brought back into compliance, as described in the following subclauses.",
+            "a": "Significant changes to a Robot, such as a partial or full swap of Subsystem 3, must be re-inspected before the Robot may compete again.",
+            "b": "All possible functional Robot configurations must be inspected before being used in competition.",
+            "c": {
+                "main": "Teams may be asked to submit to random spot inspections by Head Referees. Refusal to submit will result in Disqualification.",
+                "i": "If a Robot is determined to not be legal before a Match begins, the Robot will be removed from the Field. A Driver may remain so that the Team does not get assessed a \"no-show\" (per <T5>)."
+            },
+            "d": "Robots which have not passed inspection (i.e., that are in Violation of one or more Robot rules) will not be permitted to play in any Matches until they have done so. <T6> will apply to any Matches that occur until the Robot has passed inspection.",
+            "e": "If a Robot has passed inspection, but is later found to be in Violation of a Robot rule during or immediately following a Match, then they will be Disqualified from that Match and <R3d> / <T6> will apply until the Violation is remedied and the Team is re-inspected.",
+            "f": "All inspection rules are to be enforced at the discretion of the Head Referee within a given event. Robot legality at one event does not automatically imply legality at future events. Robots which rely on \"edge-case\" interpretations of subjective rules, such as whether a decoration is \"non-functional\" or not, should expect additional scrutiny during inspection."
+        },
+        "R4": {
+            "main": "Starting configuration. At the start of each Match, the Robot must be able to satisfy the following constraints:",
+            "a": "Only be contacting the Floor and/or the Field Perimeter.",
+            "b": "Fit within an 11\" x 20\" x 15\" (279.4mm x 508mm x 381.0mm) volume.",
+            "c": {
+                "main": "The starting configuration of the Robot at the beginning of a Match must be the same as a Robot configuration inspected for compliance, and within the maximum allowed size.",
+                "i": "Teams using more than one possible Robot configuration at the beginning of Matches must tell the Inspector(s) and have the Robot inspected in its largest configuration(s).",
+                "ii": "A Team may NOT have its Robot inspected in one configuration and then place it in an uninspected configuration at the start of a Match."
+            }
+        },
+        "R5": {
+            "main": "**Prohibited items.** The following types of mechanisms and components are NOT allowed:",
+            "a": "Those that could potentially damage Field Elements or Blocks.",
+            "b": "Those that could potentially damage or entangle other Robots."
+        },
+        "R6": {
+            "main": "**VEX IQ product line.** Robots may be built ONLY from official Robot components from the VEX IQ product line, unless otherwise specifically noted within these rules.",
+            "a": "Official VEX IQ products are ONLY available from VEX Robotics. To determine whether a product is \"official\" or not, consult www.vexiq.com.",
+            "b": "If an Inspector or event official questions whether something is an official VEX IQ component, the Team will be required to provide documentation to an inspector that proves the component's source. Such documentation may include receipts, part numbers, or other printed documentation.",
+            "c": "Only VEX IQ components specifically designed for use in Robot construction are allowed. Using additional components outside their typical purpose is against the intent of the rule (i.e., please don't try using VEX IQ apparel, Team or event support materials, packaging, Field Elements, or other non-Robot products on a VEX IQ Robotics Competition Robot).",
+            "d": "Products from the VEX V5, VEX EXP, Cortex, or VEXpro product lines cannot be used for Robot construction. However, products from the VEX V5 product line that are also cross-listed as part of the VEX IQ product line are legal. A \"cross-listed\" product is one which can be found in both the VEX IQ and VEX V5 sections of the VEX Robotics website.",
+            "e": "Mechanical/structural components from the VEX Robotics by HEXBUG* product line are legal for Robot construction. However, electrical components from the VEX Robotics by HEXBUG product line are illegal for Robot construction.",
+            "f": "Mechanical/structural components from the VEX GO product line are legal for Robot construction. However, electrical components from the VEX GO product line are illegal for Robot construction.",
+            "g": "Official Robotics components from the VEX IQ product line that have been discontinued are still legal for Robot use. However, Teams must be aware of <R6b>.",
+            "h": "Functional 3D printed components, such as replicas of legal VEX IQ parts or custom designs, are not legal for Robot use.",
+            "i": "Additional VEX IQ products that are released during the season are legal for use, unless otherwise noted on their product pages and/or in the VEX IQ Robotics Competition Legal Parts Appendix.",
+            "j": "VEX IQ Smart Cables may only be used for connecting legal electronic devices to the VEX IQ Robot Brain.",
+            "note": "A comprehensive list of legal parts can be found in the VEX IQ Robotics Competition Legal Parts Appendix, at https://www.vexrobotics.com/iq/competition/viqc-current-game. This Appendix is updated as needed if/when new VEX IQ parts are released, and may not coincide with scheduled Game Manual updates."
+        },
+        "R7": {
+            "main": "**Non-VEX IQ components.** Robots are allowed to use the following additional \"non-VEX IQ\" components:",
+            "a": "Rubber bands that are identical in length and thickness to those included in the VEX IQ product line (#32, #64 & #117B).",
+            "b": "⅛\" metal shafts from the VEX V5 product line."
+        },
+        "R8": {
+            "main": "**Decorations are allowed.** Teams may add non-functional decorations, provided that they do not affect Robot performance in any significant way or affect the outcome of the Match. These decorations must be in the spirit of the competition. Inspectors will have final say in what is considered \"non-functional.\" Unless otherwise specified below, non-functional decorations are governed by all standard Robot rules.",
+            "a": "Decorations must be in the spirit of an educational competition.",
+            "b": "To be considered \"non-functional,\" any decorations must be backed by legal materials that provide the same functionality. For example, a giant decal cannot be used to prevent Blocks from falling out of the Robot unless it is backed by VEX IQ material. A simple way to check this is to determine if removing the decoration would impact the performance of the Robot in any way.",
+            "c": "The use of non-toxic paint is considered a legal non-functional decoration. However, any paint being used as an adhesive or to impact how tightly parts fit together would be classified as functional."
+        },
+        "R9": {
+            "main": "**Officially registered Team numbers must be displayed on Robot License Plates.** To participate in an official VEX IQ Robotics Competition Event, a Team must first register on robotevents.com and receive a VEX IQ Robotics Competition Team Number.\n\nThis Team number must be legibly displayed on at least one (1) VEX IQ Robotics Competition License Plate. Teams may choose to use the official VEX IQ Robotics Competition License Plate (VEX Part Number 228-7401), or may create their own custom License Plates.",
+            "a": "License Plates must fulfill all inspection rules",
+            "b": "License Plates must be clearly visible at all times. For example, License Plates must not be in a position that would be easily obstructed by a Robot mechanism during standard Match play.",
+            "c": "Any custom-made License Plates used must be the same length and height as the official License Plate (3.5\" x 1.5\" [88.9mm x 38.1mm]). They must not exceed the width of the official License Plate (0.25\" [6.35mm]).",
+            "d": "Custom-made License Plates are considered non-functional decorations, and must therefore meet all of the criteria listed in <R8>. Therefore, 3D printed License Plates are permitted within these rules."
+        },
+        "R10": {
+            "main": "**Let it go after the Match is over.** Robots must be designed to permit easy removal of Blocks from their Robot without requiring that the Robot have power or remote control after the Match is over."
+        },
+        "R11": {
+            "main": "**Robot Brain.** Robots are limited to one (1) VEX IQ Robot Brain",
+            "a": {
+                "main": "Robot Brains, microcontrollers, and other electronic components that are part of the VEX Robotics by HEXBUG, VEX GO, VEX EXP, VEX V5, VEX 123, or VEXpro product lines are not allowed.",
+                "i": "The Robot AA Battery Holder (228-3493) is the only exception to this rule, per <R13>."
+            },
+            "b": "If using a first generation VEX IQ Brain, Robots must use one (1) VEX IQ 900 MHz radio, VEX IQ 2.4 GHz radio, or VEX IQ Smart Radio in conjunction with their VEX IQ Robot Brain.",
+            "c": "The only legal method of driving the Robot during Teamwork Challenge Matches and Driving Skills Matches is the VEX IQ Controller.",
+            "d": "See <RSC5> and <RSC6> for more information about operating the Robot during Autonomous Coding Skills Matches."
+        },
+        "R12": {
+            "main": "**Motors.** Robots may use up to six (6) VEX IQ Smart Motors.",
+            "a": "Additional motors cannot be used on the Robot (even motors that aren't connected)."
+        },
+        "R13": {
+            "main": "**Batteries.** The only allowable sources of electrical power for a VEX IQ Robotics Competition Robot are one (1) VEX IQ Robot Battery (first or second generation) or six (6) AA batteries via the Robot AA Battery Holder (228-3493).",
+            "a": "Additional batteries cannot be used on the Robot (even batteries that aren't connected).",
+            "b": "Teams are permitted to have an external power source (such as a rechargeable battery pack) plugged into their VEX IQ Controller during a Match, provided that this power source is connected safely and does not violate any other rules (such as <G8>).",
+            "note": "Although it is legal, the Robot AA Battery Holder (228-3493) is not recommended for use in the VEX IQ Robotics Competition."
+        },
+        "R14": {
+            "main": "**Firmware.** Teams must have their VEX IQ firmware (VEXos) up to date. Teams can download the latest version of VEXos at www.vexiq.com/vexos."
+        },
+        "R15": {
+            "main": "**Modifications of parts.** Parts may NOT be modified unless specifically listed as an exception in this rule. Examples of modifications include, but are not limited to, bending, cutting, sanding, gluing, or melting.",
+            "a": "Cutting metal VEX IQ or VEX V5 shafts to custom lengths is permitted",
+            "b": "It is legal to bend parts which are intended to be flexible, such as string, rubber bands, or thin plastic sheets."
+        },
+        "T1": {
+            "main": "**The Head Referee has ultimate and final authority on all gameplay ruling decisions during the competition.**",
+            "a": "Scorekeeper Referees score the Match, and may serve as observers or advisers for the Head Referees, but may not determine any rules or infractions directly.",
+            "b": "When issuing a Disqualification or warning to a Team, the Head Referee must provide the rule number of the specific rule that has been Violated, and record the Violation in the Match Anomaly Log.",
+            "c": "Violations of the REC Foundation Code of Conduct may involve additional escalation beyond the Head Referee's initial ruling, including (but not limited to) investigation by an REC Foundation representative. Rules <S1>, <G1>, and <G2> are the only rules for which this escalation may be required.",
+            "d": "Event Partners may not overrule a Head Referee's decision.",
+            "e": "Every Qualification Match & Finals Match must be watched by a Head Referee."
+        },
+        "T2": {
+            "main": "**Head Referees must be qualified.** VEX IQ Head Referees must have the following qualifications:",
+            "a": "Be at least 16 years of age.",
+            "b": "Be approved by the Event Partner.",
+            "c": "Be an REC Foundation Certified VIQRC Head Referee for the current season",
+            "note": "Scorekeeper Referees must be at least 15 years of age, and must be approved by the Event Partner."
+        },
+        "T3": {
+            "main": "**The Drivers are permitted to immediately appeal the Head Referee's ruling.** If Drivers wish to dispute a score or ruling, they must stay in the Driver Station until the Head Referee talks with them. The Head Referee may choose to meet with the Drivers at another location and/or at a later time so that the Head Referee has time to reference materials or resources to help with the decision. Once the Head Referee announces that their decision has been made final, the issue is over and no more appeals may be made (See rule <T1>).",
+            "a": "Head Referees may not review any photo or video Match recordings when determining a score or ruling.",
+            "b": "Head Referees are the only individuals permitted to explain a rule, Disqualification, or warning to the Teams. Teams should never consult other field personnel, including Scorekeeper Referees, regarding a ruling clarification.",
+            "note": "Communication and conflict resolution skills are an important life skill for Students to practice and learn. In VEX IQ Robotics Competitions, we expect Students to practice proper conflict resolution using the proper chain of command. Violations of this rule may be considered a Violation of <G1> and/or the Code of Conduct."
+        },
+        "T4": {
+            "main": "**The Event Partner has ultimate authority regarding all non-gameplay decisions during an event.** The Game Manual is intended to provide a set of rules for successfully playing VRC Spin Up; it is not intended to be an exhaustive compilation of guidelines for running a VEX Robotics Competition event. Rules such as, but not limited to, the following examples are at the discretion of the Event Partner and should be treated with the same respect as the Game Manual:\n\n\u2022 Venue access\n\n\u2022 Pit spaces\n\n\u2022 Health and safety\n\n\u2022 Team registration and/or competition eligibility\n\n\u2022 Team conduct away from competition fields"
+        },
+        "T5": {
+            "main": "**Be at your match on time.** If no member of a Team is present in the Driver Station at the start of a Match, that Team is considered a \"no show\" and will receive zero (0) points. The other Team in the Alliance will still play and receive points for the Match."
+        },
+        "T6": {
+            "main": "**Robots at the field must be ready to play.** If a Team brings their Robot to the Field, it must be prepared to play (i.e., batteries charged, sized within the starting size constraint, etc.)",
+            "a": "Robots must be placed on the field promptly. Repeated failure to do so could result in a Violation of <G1> and/or removal of the Robot from the current Match at the Head Referee's discretion."
+        },
+        "T7": {
+            "main": "Match Replays are allowed, but rare. Match replays (i.e., playing a Match over again from its start) are at the discretion of the Event Partner and Head Referee, and will only be issued in the most extreme circumstances. Some examples that may warrant a Match replay are as follows:",
+            "a": {
+                "main": "Score Affecting \"Field fault\" issues",
+                "i": "Blocks not starting in the correct positions",
+                "ii": "Field Elements detaching or moving beyond normal tolerances, not a result of Robot interactions."
+            },
+            "b": {
+                "main": "Score Affecting game rule issues.",
+                "i": "A Field is reset before the score is determined."
+            }
+        },
+        "T8": {
+            "main": "**Disqualifications.** A Team that is issued a Disqualification in a Qualification Match receives zero (0) points for the Match. The other Team on their Alliance will still receive points for the Match.",
+            "a": "In Finals Matches, Disqualifications apply to the whole Alliance, not just one Team. An Alliance that receives a Disqualification in a Finals Match will receive zero (0) points.",
+            "b": "A Team that receives a Disqualification in a Robot Skills Match will receive a score of zero (0)."
+        },
+        "T9": {
+            "main": "**Timeouts.** There are no timeouts in Qualification Matches or Finals Matches."
+        },
+        "T10": {
+            "main": "**Be prepared for minor field variance.** Field Element tolerances may vary from nominal by up to ±1.0\", unless otherwise specified. Block weights may vary from nominal by up to ±2 grams. Teams are encouraged to design their Robots accordingly. Please make sure to check Appendix A for more specific nominal dimensions and tolerances."
+        },
+        "T11": {
+            "main": "**Fields and Field Elements may be repaired at the Event Partner's discretion.** All competition fields and other Field Elements at an event must be set up in accordance with the specifications in Appendix A and / or other applicable support materials. Minor aesthetic customizations or repairs are permitted, provided that they do not impact gameplay (see <T4>).\n\nExamples of permissible modifications include, but are not limited to:\n\n\u2022 Replacing a damaged or missing VEX IQ Field component with an identical part of any color\n\n\u2022 Elevating the playing field off of the Floor (common heights are 10\" to 24\" [25.4cm to 61cm])\n\n\u2022 Using off-the-shelf PVC to replace a damaged or missing Supply Zone pipe"
+        },
+        "T12": {
+            "main": "**Teamwork Matches.** During Teamwork Challenge Matches, two (2) Teams form an Alliance that will play on the Field.",
+            "a": "Qualification Match Alliances are randomly selected.",
+            "b": {
+                "main": "Finals Match Alliances are assigned as follows:",
+                "i": "The first and second ranked Teams form an Alliance.",
+                "ii": "The third and fourth ranked Teams form an Alliance.",
+                "iii": "And so on, until all Teams participating in Finals Matches have formed an Alliance."
+            }
+        },
+        "T13": {
+            "main": "**Ending a Match early.** If an Alliance wants to end a Qualification Match or a Finals Match early, both Teams must signal the referee by ceasing all Robot motion and placing their controllers on the ground. The referee will then signal to the Teams that the Match is over and will begin to tally the score. If the Match is a tiebreaker Finals Match, then the Match Stop Time will also be recorded."
+        },
+        "T14": {
+            "main": "**Practice Matches may be played at some events, but are not required.** If Practice Matches are run, every effort will be made to equalize practice time for all Teams."
+        },
+        "T15": {
+            "main": "**Qualification Matches will occur according to the official match schedule.** This schedule will indicate Alliance partners, Qualification Match times, and, if the event has multiple Fields, which Field each Qualification Match will be played on.",
+            "note": "The official Match schedule is subject to changes at the Event Partner's discretion."
+        },
+        "T16": {
+            "main": "**Each Team will be scheduled Qualification Matches as follows.**",
+            "a": "When in a tournament, the tournament must have a minimum of six (6) Qualification Matches per team at local qualifying events and eight (8) for a Championship event.",
+            "b": "When in a league, there must be at least three (3) league ranking sessions, with at least one (1) week between sessions. Each session must have a minimum of two (2) Qualification Matches per Team. The suggested number of Qualification Matches per Team for a standard league ranking session is four (4). Event Partners may choose to have Qualification Matches as part of their league finals session."
+        },
+        "T17": {
+            "main": "**Teams are ranked by their average Qualification Match scores.**",
+            "a": {
+                "main": "When in a tournament, every Team will be ranked based on the same number of Qualification Matches.",
+                "i": "For tournaments that have more than 1 division, Teams will be ranked among all Teams in the event (i.e., there is no divisional ranking). The top Teams, regardless of division, will advance to the Finals Matches. Any multi-division event must be approved by the REC Foundation EEM/ RSM prior to the event, and divisions must be assigned in sequential order by Team number."
+            },
+            "b": "When in a league, every Team will be ranked based on the number of Matches played. Teams that participate in less than 60% of the total Matches available will be ranked below Teams that participate in at least 60% of the total Matches available (e.g., if the league offers 3 ranking sessions with 4 Qualification Matches per Team, Teams that participate in 8 or more Matches will be ranked higher than Teams who participate in 7 or fewer Matches). Being a no-show to a Match that a Team is scheduled in still constitutes participation for these calculations.",
+            "c": "A certain number of a Team's lowest Qualification Match scores will be excluded from the rankings based on the quantity of Qualification Matches each Team plays. Excluded scores do not affect participation for leagues.",
+            "d": "In some cases, a Team will be asked to play an additional Qualification Match. The extra Match will be identified on the Match Schedule with an asterisk and will not impact the Team's ranking (or participation for leagues). Teams are reminded that <G1>s is always in effect and Teams are expected to behave as if the additional Qualification Match counted.",
+            "e": {
+                "main": "Ties in Team ranking are broken by:",
+                "i": "Removing the Team's lowest score and comparing the new average score.",
+                "ii": "Removing the Team's next lowest score and comparing the new average score (on through all scores).",
+                "iii": "If the Teams are still tied, the Teams will be sorted by random electronic draw"
+            }
+        },
+        "T18": {
+            "main": "**Teams playing in Finals Matches.** The number of Finals Matches, and therefore the number of Teams who will participate in Finals Matches, is determined by the Event Partner. Events that qualify teams directly to VEX Worlds must have a minimum of five (5) Finals Matches if there are ten (10) or more Teams in attendance."
+        },
+        "T19": {
+            "main": "**Finals Match Schedule.** Finals Matches are played sequentially, starting with the lowest-ranked Alliance. Each Alliance will participate in one (1) Finals Match. The Alliance with the highest Finals Match score is the Teamwork Challenge champion.",
+            "a": "Alliances are ranked by their Finals Match score. The highest-scoring Alliance is in first place, the second-highest-scoring Alliance is in second place, etc.",
+            "b": {
+                "main": "Ties for first place will result in a series of tiebreaker Finals Matches, starting with the lower-seeded Alliance. The Alliance with the highest tiebreaker Finals Match score will be declared the Teamwork Challenge champion.",
+                "i": "If the tiebreaker Finals Match scores are tied, the Alliance with the higher Match Stop Time will be declared the winner.",
+                "ii": "If the Match Stop Time is also tied, a second series of tiebreaker Finals Matches will be played. If this second series of tiebreaker Finals Match is also tied, then the higher-seeded Alliance will be declared the winner.",
+                "iii": "If there is a tie for a place other than first, the higher-seeded Alliance will receive the higher rank."
+            }
+        },
+        "RSC1": {
+            "main": "**Standard rules apply in most cases.** All rules and scoring from previous sections apply to the Robot Skills Matches, unless otherwise specified.",
+            "a": "There is no Double Parked bonus for Robot Skills Matches."
+        },
+        "RSC2": {
+            "main": "**Skills Scoring and Ranking at events.** For each Robot Skills Match, Teams are awarded a score based on the standard rules and scoring rules. Teams will be ranked based on the following scores and tiebreakers:",
+            "a": "Sum of highest Autonomous Coding Skills Match score and highest Driving Skills Match Score",
+            "b": "Highest Autonomous Coding Skills Match score.",
+            "c": "Second-highest Autonomous Coding Skills Match score",
+            "d": "Second-highest Driving Skills Match score.",
+            "e": "Highest sum of Skills Stop Times from a Team's highest Autonomous Coding Skills Match and highest Driving Skills Match (i.e., the Matches in point 1).",
+            "f": "Highest Skills Stop Time from a Team's highest Autonomous Coding Skills Match (i.e., the Match in point 2).",
+            "g": "Third-highest Autonomous Coding Skills Match score",
+            "h": "Third-highest Driving Skills Match score.",
+            "i": {
+                "main": "If the tie cannot be broken after all above criteria (i.e., both Teams have the exact same scores and Skills Stop Times for each Autonomous Coding Skills Match and Driving Skills Match), then the following ordered criteria will be used to determine which team had the \"best\" Autonomous Coding Skills Match:",
+                "i": "Points for Blocks Scored in Goals",
+                "ii": "Points for Height Bonus",
+                "iii": "Points for Uniform Goals"
+            },
+            "j": "If the tie still cannot be broken, the same process in the step above will be applied to the Teams' highest Driving Skills Matches.",
+            "k": "If the tie still isn't broken, the Event Partner may choose to allow Teams to have one more deciding Match, or both Teams may be declared the winner."
+        },
+        "RSC3": {
+            "main": "**Skills Rankings Globally.** Teams are ranked based on their Robot Skills Match scores globally using the following tiebreakers.",
+            "a": "Highest Robot Skills score (combined Autonomous Coding Skills Match and Driving Skills Match Score from a single event).",
+            "b": "Highest Autonomous Coding Skills Match score (from any event).",
+            "c": "Highest sum of Skills Stop Times from the Robot Skills Matches used for point a.",
+            "d": "Highest Skills Stop Time from the Autonomous Coding Skills Match used for point b.",
+            "e": "Highest Driving Skills Match score (from any event).",
+            "f": "Highest Skills Stop Time from the Driving Skills Match score used in point 5.",
+            "g": {
+                "main": "Earliest posting of the highest Autonomous Coding Skills Match score.",
+                "i": "The first Team to post a score ranks ahead of other Teams that post the same score at a later time, all else being equal."
+            },
+            "h": {
+                "main": "Earliest posting of the highest Driving Skills Match score.",
+                "a": "The first Team to post a score ranks ahead of other Teams that post the same score at a later time, all else being equal."
+            }
+        },
+        "RSC4": {
+            "main": "**Skills Match Schedule.** Teams play Robot Skills Matches on a first-come, first-served basis. Each Team will get the opportunity to play exactly three (3) Driving Skills Matches and three (3) Autonomous Coding Skills Matches."
+        },
+        "RSC5": {
+            "main": "**Handling Robots during an Autonomous Coding Skills Match.** A Team may handle their Robot as many times as desired during an Autonomous Coding Skills Match.",
+            "a": {
+                "main": "Upon handling the Robot, it must be immediately brought back to any legal Starting Position.",
+                "i": "Drivers may reset or adjust the Robot as desired from this position, including pressing buttons on the Robot Brain or activating sensors."
+            },
+            "b": "Any Blocks being controlled by the Robot while being handled must be removed from the Field, and can be returned to the Supply Zone by a referee or Driver. \"Controlled\" requires that the Robot was manipulating the Block and not simply touching it (e.g., if the Block moves with the Robot either vertically or while turning, the Robot is controlling the Block).",
+            "c": "Any Blocks within the chosen Starting Position for a reset must be removed from the Field and can be returned to the Supply Zone by a referee or Driver.",
+            "d": {
+                "main": "During an Autonomous Coding Skills Match, Drivers may move freely around the Field, and are not restricted to the Driver Station when not handling their Robot.",
+                "i": "The rest of <G8>, which states that Drivers are not allowed to use any communication devices during their Match, still applies.",
+                "ii": "An intent of this exception is to permit Drivers who wish to \"stage\" Robot handling during an Autonomous Coding Skills Match to do so without excessive running back and forth to the Driver Station."
+            },
+            "note": "This rule only applies to Autonomous Coding Skills Matches. Driving Skills Matches are still governed by <G9> & <G10>, especially for strategic violations.\n\nNote 2: Any Blocks which remain outside of the Field at the end of a Match will be considered \"in\" the Supply Zone (i.e., the Supply Zone will not be eligible to be Cleared)."
+        },
+        "RSC6": {
+            "main": "**Starting an Autonomous Coding Skills Match.** Drivers must start a Robot's Autonomous Coding Skills Match routine by pressing a button on the Robot Brain or manually activating a sensor. Because there is no VEX IQ Controller hand-off, only one (1) Driver is required for an Autonomous Coding Skills Match (though Teams may still have two (2) if desired).",
+            "a": "Pre-match sensor calibration is considered part of the standard pre-Match setup time (i.e., the time when the Team would typically be turning on the Robot, moving any mechanisms to their desired legal start position, etc.).",
+            "b": "Pressing a button on the VEX IQ Controller to begin the routine is not permitted. To avoid any confusion, Teams are advised not to bring controllers to Autonomous Coding Skills Match."
+        },
+        "RSC7": {
+            "main": "**Skills Stop Time.** If a Team wishes to end their Robot Skills Match early, they may elect to record a Skills Stop Time. This is used as a tiebreaker for Robot Skills Challenge rankings. A Skills Stop Time does not affect a Team's score for a given Robot Skills Match. Drivers and field staff must agree prior to the Match on the signal that will be used to end the Match early.",
+            "a": "As noted in the definition of Skills Stop Time, the moment when the Match ends early is defined as the moment when the Robot and Blocks have come to a rest and the Driver provides the agreed upon visual and audio signal to the Scorekeeper Referee.",
+            "b": "Teams who intend to attempt a Skills Stop Time must \"opt-in\" by verbally confirming with the Scorekeeper Referee prior to the Robot Skills Match. If no notification is given prior to the start of the Match, then the Team forfeits their option to record a Skills Stop Time for that Match.",
+            "c": "This conversation should include informing the Scorekeeper Referee which Driver will signal the stop. The Match may only be ended early by a Driver for that Match.",
+            "d": "The agreed-upon signal to stop the match must be both verbal and visual, such as Drivers crossing their arms in an \"X\" or placing their VEX IQ Controller on the ground.",
+            "e": "It is recommended that the Driver also provides a verbal notice that they are approaching their Skills Stop Time, such as counting out \"3-2-1-stop.\"",
+            "f": "If a Team runs multiple Robot Skills Matches in a row, they must reconfirm their Skills Stop Time choice with the Scorekeeper Referee prior to each Match.",
+            "g": "Any questions regarding a Skills Stop Time should be reviewed and settled immediately following the Match. <T1> and <T3> apply to Robot Skills Matches."
         }
     }
 }

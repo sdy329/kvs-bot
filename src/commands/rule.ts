@@ -11,6 +11,7 @@ import { current, seasonsVRC, seasonsVIQRC } from '../lib/seasons'
 
 const json = JSON.parse(JSON.stringify(rulesJSON));
 const alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'];
+const romans = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii']
 
 enum SubcommandName {
     VRC = 'vrc',
@@ -49,7 +50,6 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                 let seasonName = seasonsVRC[season as keyof typeof seasonsVRC];
                 let ruleMain;
                 let subsections: string[] = [];
-                let subsectionsContent = ' ';
 
                 try {
                     ruleMain = json[season][ruleNumber]['main']
@@ -59,45 +59,69 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                         `There is no rule ${ruleNumber} for ${seasonName}`
                     );
                 }
+
+                const embed = new EmbedBuilder()
+                    .setColor(Color.Red)
+                    .setTitle(`${seasonName} Rule ${ruleNumber}`)
+                    .setDescription(ruleMain)
+
                 let jsonLength = Object.keys(json[season][ruleNumber]).length
                 if (jsonLength !== 1) {
-                    subsectionsContent = '';
                     try {
                         for (var i = 0; i < jsonLength; i++) {
                             if (i == 0) {
                                 if (json[season][ruleNumber]['note'] !== undefined) {
                                     jsonLength -= 1;
                                 }
+                                if(json[season][ruleNumber]['vnote'] !== undefined) {
+                                    jsonLength -=1;
+                                }
                                 continue;
                             }
-                            try {
-                                subsections.push(json[season][ruleNumber][alphabet[i - 1]])
-                                subsectionsContent += `${alphabet[i - 1]}. ${json[season][ruleNumber][alphabet[i - 1]]}\n\n`;
-                            } catch (error) {
-                                throw error;
+                            if (json[season][ruleNumber][alphabet[i - 1]]['main'] !== undefined) {
+                                let subsectionsContent = '';
+                                for (var j = 0; j < Object.keys(json[season][ruleNumber][alphabet[i - 1]]).length; j++) {
+                                    try {
+                                        if (j == 0) {
+                                            subsections.push(json[season][ruleNumber][alphabet[i - 1]]['main'])
+                                            subsectionsContent += `${alphabet[i - 1]}. ${json[season][ruleNumber][alphabet[i - 1]]['main']}\n\n`;
+                                        }
+                                        else {
+                                            subsections.push(json[season][ruleNumber][alphabet[i - 1]][romans[j - 1]]);
+                                            subsectionsContent += `${romans[j - 1]}. ${json[season][ruleNumber][alphabet[i - 1]][romans[j - 1]]}\n\n`;
+                                        }
+                                    } catch (error) {
+                                        throw error;
+                                    }
+                                }
+                                embed.addFields({ name: ' ', value: subsectionsContent});
+                            }
+                            else {
+                                try {
+                                    subsections.push(json[season][ruleNumber][alphabet[i - 1]])
+                                    embed.addFields({ name: ' ', value: `${alphabet[i - 1]}. ${json[season][ruleNumber][alphabet[i - 1]]}\n\n` });
+
+                                } catch (error) {
+                                    throw error;
+                                }
                             }
                         }
                         if (json[season][ruleNumber]['note'] !== undefined) {
-                            subsectionsContent += `Note: ${json[season][ruleNumber]['note']}\n\n`;
+                            embed.addFields({ name: ' ', value: `Note: ${json[season][ruleNumber]['note']}\n\n` });
+                        }
+                        if (json[season][ruleNumber]['vnote'] !== undefined) {
+                            embed.addFields({ name: ' ', value: `Violation Notes: ${json[season][ruleNumber]['vnote']}\n\n` });
                         }
                     } catch (error) {
                         throw error;
                     }
                 }
-
-                console.log(subsections);
-
-                    await interaction.followUp({
-                        embeds: [
-                            new EmbedBuilder()
-                                .setColor(Color.Red)
-                                .setTitle(`${seasonName} Rule ${ruleNumber}`)
-                                .setDescription(ruleMain)
-                                .addFields({ name: ' ', value: subsectionsContent }
-                                ),
-                        ],
-                        ephemeral: true,
-                    });
+                await interaction.followUp({
+                    embeds: [
+                        embed
+                    ],
+                    ephemeral: true,
+                });
             },
         },
         {
@@ -122,7 +146,6 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                 let seasonName = seasonsVIQRC[season as keyof typeof seasonsVIQRC];
                 let ruleMain;
                 let subsections: string[] = [];
-                let subsectionsContent = ' ';
 
                 try {
                     ruleMain = json[season][ruleNumber]['main']
@@ -133,42 +156,67 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                     );
                 }
 
+                const embed = new EmbedBuilder()
+                    .setColor(Color.Blue)
+                    .setTitle(`${seasonName} Rule ${ruleNumber}`)
+                    .setDescription(ruleMain)
+
                 let jsonLength = Object.keys(json[season][ruleNumber]).length
                 if (jsonLength !== 1) {
-                    subsectionsContent = '';
                     try {
                         for (var i = 0; i < jsonLength; i++) {
                             if (i == 0) {
                                 if (json[season][ruleNumber]['note'] !== undefined) {
                                     jsonLength -= 1;
                                 }
+                                if(json[season][ruleNumber]['vnote'] !== undefined) {
+                                    jsonLength -=1;
+                                }
                                 continue;
                             }
-                            try {
-                                subsections.push(json[season][ruleNumber][alphabet[i - 1]])
-                                subsectionsContent += `**${alphabet[i - 1]}.** ${json[season][ruleNumber][alphabet[i - 1]]}\n\n`;
-                            } catch (error) {
-                                throw error;
+                            if (json[season][ruleNumber][alphabet[i - 1]]['main'] !== undefined) {
+                                let subsectionsContent = '';
+                                for (var j = 0; j < Object.keys(json[season][ruleNumber][alphabet[i - 1]]).length; j++) {
+                                    try {
+                                        if (j == 0) {
+                                            subsections.push(json[season][ruleNumber][alphabet[i - 1]]['main'])
+                                            subsectionsContent += `${alphabet[i - 1]}. ${json[season][ruleNumber][alphabet[i - 1]]['main']}\n\n`;
+                                        }
+                                        else {
+                                            subsections.push(json[season][ruleNumber][alphabet[i - 1]][romans[j - 1]]);
+                                            subsectionsContent += `${romans[j - 1]}. ${json[season][ruleNumber][alphabet[i - 1]][romans[j - 1]]}\n\n`;
+                                        }
+                                    } catch (error) {
+                                        throw error;
+                                    }
+                                }
+                                embed.addFields({ name: ' ', value: subsectionsContent});
+                            }
+                            else {
+                                try {
+                                    subsections.push(json[season][ruleNumber][alphabet[i - 1]])
+                                    embed.addFields({ name: ' ', value: `${alphabet[i - 1]}. ${json[season][ruleNumber][alphabet[i - 1]]}\n\n` });
+
+                                } catch (error) {
+                                    throw error;
+                                }
                             }
                         }
                         if (json[season][ruleNumber]['note'] !== undefined) {
-                            subsectionsContent += `Note: ${json[season][ruleNumber]['note']}\n\n`;
+                            embed.addFields({ name: ' ', value: `Note: ${json[season][ruleNumber]['note']}\n\n` });
+                        }
+                        if (json[season][ruleNumber]['vnote'] !== undefined) {
+                            embed.addFields({ name: ' ', value: `Violation Notes: ${json[season][ruleNumber]['vnote']}\n\n` });
                         }
                     } catch (error) {
                         throw error;
                     }
                 }
-
                 await interaction.followUp({
                     embeds: [
-                        new EmbedBuilder()
-                            .setColor(Color.Blue)
-                            .setTitle(`${seasonName} Rule ${ruleNumber}`)
-                            .setDescription(ruleMain)
-                            .addFields({ name: ' ', value: subsectionsContent }
-                            ),
+                        embed
                     ],
-                    ephemeral: false,
+                    ephemeral: true,
                 });
             },
         },
