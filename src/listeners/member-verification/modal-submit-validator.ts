@@ -106,11 +106,12 @@ export class InteractionCreateListener extends Listener<
     if (program.ids.length) {
         const foundRegion = Region.values().find(
             ({ name }) => name.toLowerCase() === teamObject['0']['location']['region']?.toLowerCase()
-          );/*
+          );
+        /*
         const foundCountry = Region.values().find(
           ({ name }) => name.toLowerCase() === teamObject['0']['location']['country'].toLowerCase()
         );*/
-          if (foundRegion !== undefined && foundRegion.role == 'Kentucky') {
+          if (foundRegion !== undefined && foundRegion.name == 'Kentucky') {
             locationRole = foundRegion.role;
           }
           else{
