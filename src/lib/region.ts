@@ -2,13 +2,13 @@ export class Region {
     public static readonly KY = new Region({
       name: 'Kentucky',
       description: 'Kentucky',
-      role: '1106216592498503750',
+      role: '647653447797178413',
       emoji: '464676956428828682',
     });
     public static readonly NKY = new Region({
       name: 'Non-KY',
       description: 'Not a Kentucky team',
-      role: '1106216611188310098',
+      role: '647653324803407872',
       emoji: '464677474509389831',
     });
 

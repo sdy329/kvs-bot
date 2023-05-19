@@ -3,7 +3,6 @@ export enum current {
     VIQRC = 'VIQRC_FV'
 }
 
-
 export enum seasonsVRC {
     VRC_OU = 'Over Under',
     VRC_SU = 'Spin Up',
