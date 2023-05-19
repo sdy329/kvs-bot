@@ -71,7 +71,7 @@ export class InteractionCreateListener extends Listener<
             .setLabel('Explanation')
             .setStyle(TextInputStyle.Paragraph)
             .setPlaceholder(
-              'If program is None, explain how you are involved with VEX Robotics, Kentucky VEX Robotics, or why you joined the server'
+              'If program is None, explain how you are involved with VEX Robotics or why you joined the server'
             )
         )
       );

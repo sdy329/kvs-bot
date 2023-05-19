@@ -1,6 +1,6 @@
 export class Region {
     public static readonly KY = new Region({
-      name: 'KY',
+      name: 'Kentucky',
       description: 'Kentucky',
       role: '1106216592498503750',
       emoji: '464676956428828682',

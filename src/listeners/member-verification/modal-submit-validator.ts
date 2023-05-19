@@ -1,5 +1,5 @@
-import {ApplyOptions} from '@sapphire/decorators';
-import {Events, Listener} from '@sapphire/framework';
+import { ApplyOptions } from '@sapphire/decorators';
+import { Events, Listener } from '@sapphire/framework';
 import axios from 'axios';
 import {
   ActionRowBuilder,
@@ -14,21 +14,22 @@ import {
   type ModalSubmitInteraction,
   type ThreadChannel,
 } from 'discord.js';
-import {robotEventsToken} from '../../lib/config';
-import {Program} from '../../lib/robotics-program';
-import {Color} from '../../lib/embeds';
-import {ButtonId, FieldName, InputId, ModalId} from '../../lib/verification';
-import {settingsManager} from '../..';
-import {userUrl} from '../../lib/user';
+import { robotEventsToken } from '../../lib/config';
+import { Program } from '../../lib/robotics-program';
+import { Region } from '../../lib/region';
+import { Color } from '../../lib/embeds';
+import { ButtonId, FieldName, InputId, ModalId } from '../../lib/verification';
+import { settingsManager } from '../..';
+import { userUrl } from '../../lib/user';
 import type { Team } from '../../lib/team';
 
-@ApplyOptions<Listener.Options>({event: Events.InteractionCreate})
+@ApplyOptions<Listener.Options>({ event: Events.InteractionCreate })
 export class InteractionCreateListener extends Listener<
   typeof Events.InteractionCreate
 > {
   private readonly axiosInstance = axios.create({
     baseURL: 'https://robotevents.com/api/v2',
-    headers: {Authorization: `Bearer ${robotEventsToken}`},
+    headers: { Authorization: `Bearer ${robotEventsToken}` },
   });
 
   public override async run(interaction: Interaction) {
@@ -40,7 +41,7 @@ export class InteractionCreateListener extends Listener<
       return;
     }
 
-    await interaction.deferReply({ephemeral: true});
+    await interaction.deferReply({ ephemeral: true });
 
     const name = interaction.fields.getTextInputValue(InputId.Name).trim();
     if (!name) {
@@ -60,13 +61,13 @@ export class InteractionCreateListener extends Listener<
       .getTextInputValue(InputId.Program)
       .trim();
     const program = Program.values().find(
-      ({name}) => name.toLowerCase() === programName.toLowerCase()
+      ({ name }) => name.toLowerCase() === programName.toLowerCase()
     );
     if (!program) {
       return this.sendValidationFailure(
         interaction,
         `Robotics competition program must be one of: ${Program.values()
-          .map(({name}) => inlineCode(name))
+          .map(({ name }) => inlineCode(name))
           .join(', ')}`
       );
     }
@@ -78,19 +79,19 @@ export class InteractionCreateListener extends Listener<
     if (program.teamRegExp && !program.teamRegExp.test(teamNumber)) {
       return this.sendValidationFailure(
         interaction,
-        `Robotics competition team ID# must be a valid ${
-          program.name
+        `Robotics competition team ID# must be a valid ${program.name
         } team ID#, for example: ${program.teamExamples
           .map(example => inlineCode(example))
           .join(', ')}`
       );
     }
 
+    let teamObject: Team[] = [];
     if (program.ids.length) {
       const {
-        data: {data: teams},
-      } = await this.axiosInstance.get<{data: Team[]}>('/teams', {
-        params: {program: program.ids, number: [teamNumber]},
+        data: { data: teams },
+      } = await this.axiosInstance.get<{ data: Team[] }>('/teams', {
+        params: { program: program.ids, number: [teamNumber] },
       });
       if (!teams.length) {
         return this.sendValidationFailure(
@@ -98,7 +99,27 @@ export class InteractionCreateListener extends Listener<
           `No ${program.name} team with ID# ${teamNumber} has ever been registered`
         );
       }
+      teamObject = teams;
     }
+
+    let locationRole = '';
+    if (program.ids.length) {
+        const foundRegion = Region.values().find(
+            ({ name }) => name.toLowerCase() === teamObject['0']['location']['region']?.toLowerCase()
+          );/*
+        const foundCountry = Region.values().find(
+          ({ name }) => name.toLowerCase() === teamObject['0']['location']['country'].toLowerCase()
+        );*/
+          if (foundRegion !== undefined && foundRegion.role == 'Kentucky') {
+            locationRole = foundRegion.role;
+          }
+          else{
+            locationRole = Region.NKY.role;
+          }/*
+          else if(foundCountry){
+            locationRole = foundCountry.role;
+          }*/
+      }
 
     const guildSettings = await settingsManager.get(interaction.guildId);
     const guild = await interaction.client.guilds.fetch(interaction.guildId);
@@ -129,7 +150,7 @@ export class InteractionCreateListener extends Listener<
       const fetchedThreads = await verificationChannel.threads.fetchActive();
       const threadName = `Verifying User ${interaction.user.id}`;
       let thread: ThreadChannel | undefined = fetchedThreads.threads.find(
-        ({type, name}) =>
+        ({ type, name }) =>
           type === ChannelType.PrivateThread && name === threadName
       );
       if (!thread) {
@@ -170,8 +191,8 @@ export class InteractionCreateListener extends Listener<
             .setTitle('Verification request')
             .setDescription(explanation)
             .setFields(
-              {name: FieldName.Nickname, value: name},
-              {name: FieldName.UserId, value: interaction.user.id}
+              { name: FieldName.Nickname, value: name },
+              { name: FieldName.UserId, value: interaction.user.id }
             )
             .setTimestamp(interaction.createdTimestamp),
         ],
@@ -225,6 +246,12 @@ export class InteractionCreateListener extends Listener<
       member.setNickname(nickname, reason),
       member.roles.add([guildSettings.verifiedRole, program.role], reason),
     ]);
+
+    if(locationRole !== ''){
+      await Promise.all([
+        member.roles.add([locationRole], reason),
+      ]);
+    }
 
     const verifiedChannelId = guildSettings.verifiedChannel;
     if (!verifiedChannelId) {
