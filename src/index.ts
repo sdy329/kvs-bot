@@ -1,17 +1,28 @@
 import {SapphireClient} from '@sapphire/framework';
 import '@sapphire/plugin-logger/register';
-import {GatewayIntentBits, Partials} from 'discord.js';
+import {GatewayIntentBits, Options, Partials} from 'discord.js';
 import {MongoClient} from 'mongodb';
-import {logLevel, mongoUrl} from './lib/config';
+import {logLevel, messageCacheSize, mongoUrl} from './lib/config';
+import {
+  MessageCounter,
+  type ChannelMessages,
+  type MessageCount,
+} from './lib/leaderboard';
 import {SettingsManager, type GuildSettings} from './lib/settings';
 import type {VerifiedMember} from './lib/verification';
 
 const mongoClient = new MongoClient(mongoUrl);
 const database = mongoClient.db();
 
+const channelMessages = database.collection<ChannelMessages>('channels');
 const guildSettings = database.collection<GuildSettings>('settings');
+export const messageCounts = database.collection<MessageCount>('messages');
 export const verifiedMembers = database.collection<VerifiedMember>('members');
 
+export const messageCounter = new MessageCounter(
+  channelMessages,
+  messageCounts
+);
 export const settingsManager = new SettingsManager(guildSettings);
 
 const discordClient = new SapphireClient({
@@ -23,7 +34,26 @@ const discordClient = new SapphireClient({
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent,
   ],
-  logger: {level: logLevel}
+  logger: {level: logLevel},
+  makeCache: Options.cacheWithLimits({
+    BaseGuildEmojiManager: 0,
+    GuildEmojiManager: 0,
+    GuildBanManager: 0,
+    GuildInviteManager: 0,
+    GuildMemberManager: Infinity,
+    GuildStickerManager: 0,
+    GuildScheduledEventManager: 0,
+    MessageManager: {
+      maxSize: messageCacheSize,
+      keepOverLimit: ({pinned}) => pinned,
+    },
+    PresenceManager: 0,
+    ReactionManager: 0,
+    ReactionUserManager: 0,
+    StageInstanceManager: 0,
+    ThreadMemberManager: 0,
+    VoiceStateManager: 0,
+  }),
 });
 
 const main = async () => {

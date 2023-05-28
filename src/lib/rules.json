@@ -602,6 +602,226 @@
             "main": "Triballs which come to rest on top of the red Goal may not be retrieved by a Drive Team Member or Referee during the Match. Triballs which come to rest on top of the blue Goal may be retrieved by a Drive Team Member per <SG3>."
         }
     },
+    "VRC_SU":{
+        "SC1": {
+            "main": "All Scoring statuses are evaluated **immediately after the Match ends**. For determination of the Autonomous Bonus and Autonomous Win Point, all Scoring statuses are evaluated immediately after the Autonomous Period ends, unless otherwise noted.",
+            "a": "For the purposes of this rule, “immediately after” means when all Discs, Field Elements, and Robots on the field come to rest."
+        },
+        "SC2": {
+            "main": "A Disc is considered **Scored in the High Goal** for the corresponding Alliance color if it meets the following criteria:",
+            "a": "Not contacting a Robot of the same color Alliance as the High Goal.",
+            "b": "Not contacting the gray or black supporting structures underneath the High Goal.",
+            "c": "At least partially contained within the vertical projection of the widest portion of the bottom “basket” of the High Goal."
+        },
+        "SC3": {
+            "main": "A Disc is considered **Scored in the Low Goal** for the Alliance corresponding to the color of the adjacent Barrier if it meets the following criteria:",
+            "a": "Not fully supported by a Robot of the same color Alliance as the Low Goal.",
+            "b": "At least partially contained within the vertical projection of the Low Goal (i.e., “breaking the plane” of the Low Goal).",
+            "c": "Not contacting any field tiles outside of the Low Goal.",
+            "d": "Not contacting the Net.",
+            "e": "Not contacting the High Goal, or any of the supporting structures underneath the High Goal.",
+            "note": "Discs which are Scored in a High Goal may not also count as being Scored in a Low Goal."
+        },
+        "SC4": {
+            "main": "A **Roller is Owned** by an Alliance if the area between the Roller’s pointers is entirely that Alliance’s color, when viewed from above.\n\nIn Figure 16, Roller A is Owned by the blue Alliance, because blue is the only color that appears between the pointers. Roller B is not Owned by either Alliance because both red and blue clearly appear between the pointers."
+        },
+        "SC5": {
+            "main": "A **field tile is considered Covered** if it is being contacted by a Robot at the end of a Match.",
+            "a": "A field tile may be Covered by both Alliances.",
+            "b": "Each Alliance may only receive points for one Cover per field tile, regardless of how many of their Robots are contacting that field tile.",
+            "c": "The field tiles located in the Low Goals do not count towards Cover points (i.e., they will not be Covered by either Alliance).",
+            "d": "Covered field tiles are only counted for points at the end of the Driver Controlled Period. They are not Scored at the end of the Autonomous Period."
+        },
+        "SC6": {
+            "main": "The **Autonomous Bonus** is awarded to the Alliance who has scored the most Roller and Disc points at the end of the Autonomous Period. An Autonomous Win Point is awarded to any Alliance that Owns two (2) Rollers, and has Scored at least two (2) Discs in their Alliance-colored High Goal at the end of the Autonomous Period.",
+            "a": "Covered field tiles are not included in the determination of the Autonomous Bonus.",
+            "b": "If the Autonomous Period ends in a tie, including a zero-to-zero tie, each Alliance will receive an Autonomous Bonus of five (5) points."
+        },
+        "S1": {
+            "main": "**Be safe out there.** If at any time the Robot operation or Team actions are deemed unsafe or have damaged a Field Element or Disc, the offending Team may receive a Disablement and / or Disqualification at the discretion of the Head Referee. The Robot will require re-inspection as described in rule <R3e> before it may take the field again.",
+            "note": "Teams should exercise caution when interacting with the Net, per <SG3>."
+        },
+        "S2": {
+            "main": "**Stay inside the field.** If a Robot is completely out-of-bounds (outside the playing field), it will be Disabled for the remainder of the Match.\n\nIf a Robot comes in contact with anything outside of the field during the Endgame period or due to an early expansion, including the floor or the outside face of the Field Perimeter, it will automatically receive a Disqualification for that Match.\n\nTeams are responsible for the actions of their Robots at all times, including during the Endgame or an early expansion. Interactions that cause expansions to leave the playing field and which result in a Disqualification are not protected by rule <G14>; <G1> will still apply.",
+            "note": "The intent of this rule is not to penalize Robots for having mechanisms that inadvertently cross the field perimeter during normal game play. However, mechanisms which cross the field perimeter intentionally and / or repeatedly while interacting with the Loader and / or during the Endgame may be considered a Violation of <S1> at the Head Referee’s discretion."
+        },
+        "S3": {
+            "main": "**Wear safety glasses.** All Drive Team Members must wear safety glasses or glasses with side shields while in the Alliance Stations during Matches. While in the pit area, it is highly recommended that all Team members wear safety glasses."
+        },
+        "G1": {
+            "main": "**Treat everyone with respect.** All Teams are expected to conduct themselves in a respectful and professional manner while competing in VEX Robotics Competition events. If a Team or any of its members (Students or any Adults associated with the Team) are disrespectful or uncivil to event staff, volunteers, or fellow competitors, they may be Disqualified from a current or upcoming Match. Team conduct pertaining to <G1> may also impact a Team’s eligibility for judged awards. Repeated or extreme Violations of <G1> could result in a Team being Disqualified from an entire event, depending on the severity of the situation.\n\nThis rule exists alongside the REC Foundation Code of Conduct. As such, Violations of the Code of Conduct can also be considered a Violation of <G1>. The Code of Conduct can be found at https:// vrc-kb.recf.org/hc/en-us/articles/9653987780375-Code-of-Conduct.",
+            "vnote": "Violations of this rule will be reviewed on a case-by-case basis. Teams at risk of a <G1> Major Violation due to multiple disrespectful or uncivil behaviors will usually receive a “final warning”, although the Head Referee is not required to provide one. Major Violations of <G1> and / or the Code of Conduct can result in Disqualification from a current Match, an upcoming Match, an entire event, or (in extreme cases) an entire competition season."
+        },
+        "G2": {
+            "main": "**VRC is a student-centered program.** Adults may assist Students in urgent situations, but Adults may never work on or program a Robot without Students on that Team being present and actively participating. Students must be prepared to demonstrate an active understanding of their Robot’s construction and programming to judges or event staff.\n\nThis rule operates in tandem with the REC Foundation Student Centered Policy, which is available on the REC Foundation website for Teams to reference throughout the season: https://vrc-kb.recf.org/hc/ en-us/articles/9654578622487-Student-Centered-Policy.",
+            "vnote": "Potential Violations of this rule will be reviewed on a case-by-case basis. By definition, all Violations of this rule become Match Affecting as soon as it is determined that a Robot which was built by an Adult has won a Match."
+        },
+        "G3": {
+            "main": "**Use common sense.** When reading and applying the rules in this document, please remember that common sense always applies in the VEX Robotics Competition."
+        },
+        "G4": {
+            "main": "**Robots begin the Match in the starting volume.** At the beginning of a Match, each Robot must be smaller than a volume of 18” (457.2 mm) long by 18” (457.2 mm) wide by 18” (457.2 mm) tall. Using Field Elements, such as the field perimeter wall, to maintain starting size is only acceptable if the Robot would still satisfy the constraints of <R5> and pass inspection without the Field Elements. ",
+            "vnote": "Any Violation of this rule will result in the Robot being removed from the field prior to the start of the Match, and rules <R3d> and <T5> will apply until the situation is corrected."
+        },
+        "G5": {
+            "main": "**Keep your Robots together.** Robots may not intentionally detach parts during the Match or leave mechanisms on the field.",
+            "note": "Parts which become detached unintentionally and therefore a Minor Violation are no longer considered “part of a Robot,” and should be ignored for the purposes of any rules which involve Robot contact (e.g., Covering field tiles, contacting a Low Goal, horizontal expansion, etc.) or Robot size.",
+            "vnote": "Major Violations of this rule should be rare, as Robots should never be designed to intentionally violate it. Minor Violations are usually due to Robots being damaged during gameplay, such as a wheel falling off."
+        },
+        "G6": {
+            "main": "**The Robot must represent the skill level of the Team.** Each Team must include Drive Team Members, Programmer(s), Designer(s), and Builder(s). No Student may fulfill any of these roles for more than one VEX Robotics Competition Team in a given competition season. Students may have more than one role on the Team, (e.g., a Designer may also be a Builder, a Programmer, and a Drive Team Member).",
+            "a": {
+                "main": "Team members may move from one Team to another for non-strategic reasons that are outside of the Team’s control.",
+                "i": "Examples of permissible moves may include, but are not limited to, illness, changing schools, conflicts within a Team, or combining / splitting Teams.",
+                "ii": "Examples of strategic moves in Violation of this rule may include, but are not limited to, one Programmer “switching” Teams in order to write the same program for multiple Robots, or one Student writing the Engineering Notebook for multiple Teams.",
+                "iii": "If a Student leaves a Team to join another Team, <G6> still applies to the Students remaining on the previous Team. For example, if a Programmer leaves a Team, then that Team’s Robot must still represent the skill level of the Team without that Programmer. One way to accomplish this would be to ensure that the Programmer teaches or trains a “replacement” Programmer in their absence."
+            },
+            "b": {
+                "main": "When a Team qualifies for a Championship event (e.g., States, Nationals, Worlds, etc.) the Students on the Team attending the Championship event are expected to be the same Students on the Team who were awarded the spot. Students can be added as support to the Team, but may not be added as Drive Team Members or Programmers for the Team.",
+                "i": "An exception is allowed if one (1) Drive Team Member and / or one (1) Programmer on the Team cannot attend the event. The Team can make a single substitution of a Drive Team Member or Programmer for the Championship event with another Student, even if that Student has competed on a different Team. This Student will now be on this new Team and may not return to the original Team."
+            },
+            "vnote": "Violations of this rule will be evaluated on a case-by-case basis, in tandem with the REC Foundation Student Centered Policy as noted in <G2>, and the REC Foundation Code of Conduct as noted in <G1>."
+        },
+        "G7": {
+            "main": "**Only Drivers, and only in the Alliance Station.** During a Match, each Team may have up to three (3) Drive Team Members in their Alliance Station and all Drive Team Members must remain in their Alliance Station for the duration of the Match.\n\nDrive Team Members are prohibited from any of the following actions during a Match:",
+            "a": "Bringing / using any sort of communication devices into / in the Alliance Station. Devices with communication features turned off (e.g., phones in airplane mode) are allowed.",
+            "b": "Standing on any sort of object during a Match, regardless of whether the field is on the floor or elevated.",
+            "c": "Bringing / using additional materials to simplify the game challenge during a Match.",
+            "note": "Drive Team Members are the only Team members that are allowed to be in the Alliance Station during a Match.\n\nNote 2: During a Match, Robots may be operated only by the Drive Team Members and / or by software running on the Robot’s control system, in accordance with <R25> and <G8>.",
+            "vnote": "Major Violations of this rule are not required to be Match Affecting, and could invoke Violations of other rules, such as <G1>, <G2>, or <G6>."
+        },
+        "G8": {
+            "main": "**Controllers must stay connected to the field.** Prior to the beginning of each Match, Drive Team Members must plug their primary V5 Controller into the field’s control system. This cable must remain plugged in for the duration of the Match, and may not be removed until the “all-clear” has been given for Drive Team Members to retrieve their Robots. See <T22> for more information regarding field control system options.",
+            "vnote": "The intent of this rule is to ensure that Robots abide by commands sent by the tournament software. Temporarily removing the cable to assist with mid-Match troubleshooting, with an Event Partner or other event technical staff present and assisting, would not be considered a Violation."
+        },
+        "G9": {
+            "main": "**Hands out of the field.** Drive Team Members are prohibited from making intentional contact with any Discs, Field Elements, or Robots during a Match, apart from the contact specified in <G9a>.",
+            "a": {
+                "main": "During the Driver Controlled Period, Drive Team Members may only touch their own Robot if the Robot has not moved at all during the Match. Touching the Robot in this case is permitted only for the following reasons:",
+                "i": "Turning the Robot on or off",
+                "ii": "Plugging in a battery",
+                "iii": "Plugging in a V5 Robot Radio",
+                "iv": "Touching the V5 Robot Brain screen, such as to start a program"
+            },
+            "b": {
+                "main": "Drive Team Members are not permitted to break the plane of the field perimeter at any time during the Match, apart from the actions described in <G9a>.",
+                "i": "This rule includes the act of introducing Match Load Discs through the Loaders"
+            },
+            "c": "Transitive contact, such as contact with the field perimeter that causes the field perimeter to contact Field Elements or Discs inside of the field, could be considered a Violation of this rule.",
+            "note": "Any concerns regarding Field Element or Disc starting positions should be raised with the Head Referee prior to the Match. Team members may never adjust the Discs or Field Elements themselves."
+        },
+        "G10": {
+            "main": "**Autonomous means “no humans.”** During the Autonomous Period, Drive Team Members are not permitted to interact with the Robots in any way, directly or indirectly. This could include, but is not limited to:\n\n\u2022 Activating any controls on their V5 Controller(s)\n\n\u2022 Unplugging or otherwise manually interfering with the field connection in any way\n\n\u2022 Triggering sensors (including the Vision Sensor) in any way, even without touching them",
+            "vnote": "See <G11>."
+        },
+        "G11": {
+            "main": "**All rules still apply in the Autonomous Period.** Teams are responsible for the actions of their Robots at all times, including during the Autonomous Period. Any Violations committed during the Autonomous Period that affect the outcome of the Autonomous Bonus - whether they are Match Affecting or not - will result in the Autonomous Bonus being automatically awarded to the opposing Alliance. If both Alliances commit Violations during the Autonomous Period that would have affected the outcome of the Autonomous Bonus, then no Autonomous Bonus will be awarded.",
+            "vnote": "The intent of this rule is to provide retribution for Violations committed during the Autonomous Period that are not Match Affecting, and therefore not Major Violations, but do affect the outcome of the Autonomous Bonus"
+        },
+        "G12": {
+            "main": "**Don’t destroy other Robots.** But, be prepared to encounter defense. Strategies aimed solely at the destruction, damage, tipping over, or Entanglement of opposing Robots are not part of the ethos of the VEX Robotics Competition and are not allowed.",
+            "a": "VRC Spin Up is intended to be an offensive game (i.e., Teams should be focused on ways to actively score points). Teams that partake in solely defensive or destructive strategies will not have the protections implied by <G12> (see <G13>). However, defensive play which does not involve destructive or illegal strategies is still within the spirit of this rule.",
+            "b": "VRC Spin Up is also intended to be an interactive game. Some incidental tipping, Entanglement, and damage may occur as a part of normal gameplay without Violation. It will be up to the Head Referee’s discretion whether the interaction was incidental or intentional.",
+            "c": "A Team is responsible for the actions of its Robot at all times, including the Autonomous Period. This applies both to Teams that are driving recklessly or potentially causing damage, and to Teams that drive around with a small wheel base. A Team should design its Robot such that it is not easily tipped over or damaged by minor contact.",
+            "d": "During the Endgame, Robots should expect the possibility of vigorous interactions with opponent Robots. Incidental damage that is caused by pushing, tipping, or Entangling during the Endgame will not be considered a Violation of <G12>. Intentional damage or dangerous mechanisms may still be considered a Violation of <R4>, <S1>, or <G1> at the Head Referee’s discretion.",
+            "vnote": "\n\u2022 Major Violations of this rule are not required to be Match Affecting. Intentional and / or egregious tipping, Entanglement, or damage may be considered a Major Violation at the Head Referee’s discretion.\n\n\u2022 Repeated Violations within a Match or tournament could be considered a Violation of <G1> and / or <S1> at the Head Referee’s discretion."
+        },
+        "G13": {
+            "main": "**Offensive Robots get the “benefit of the doubt.”** In a case where Head Referees are forced to make a judgment call regarding a destructive interaction between a defensive and an offensive Robot, or an interaction which results in a questionable Violation, referees will err on the side of the offensive Robot (i.e., the Robot that is actively attempting to score points)."
+        },
+        "G14": {
+            "main": "**You can’t force an opponent into a penalty.** Intentional strategies that cause an opponent to break a rule are not permitted, and will not result in a Violation for the opposing Alliance.",
+            "vnote": "In most cases, if a Team causes their opponent to break a rule, the Head Referee will simply not enforce the penalty on that opponent, and it will be considered a Minor Violation for the guilty Team. However, if the forced situation becomes Match Affecting in favor of the guilty Team, it will be considered a Major Violation."
+        },
+        "G15": {
+            "main": "**No Trapping for more than 5 seconds.** A Robot may not Trap an opposing Robot for more than five seconds (0:05) during the Driver Controlled Period.",
+            "a": "A Trap ends once the Trapping Robot has moved away and the Robots are separated by at least two (2) feet (approximately one [1] foam tile).",
+            "b": "After ending a Trap, a Robot may not Trap the same Robot again for a duration of five seconds (0:05). If a Team does Trap the same Robot again within five seconds (0:05), the count will resume from where it ended when the Trapping Robot initially backed away.",
+            "note": "There is no penalty for Traps which begin during the Endgame, but <G15a> and <G15b> apply to all Traps that begin before the final ten (10) seconds of the Match. If a Robot initiates a Trap before the Endgame and does not separate for at least two (2) feet and five (5) seconds before resuming the Trap, the count will resume as described in <G15b>."
+        },
+        "G16": {
+            "main": "**Don’t clamp your Robot to the field.** Robots may not intentionally grasp, grapple or attach to any Field Elements. Strategies with mechanisms that react against multiple sides of a Field Element in an effort to latch or clamp onto said Field Element are prohibited. The intent of this rule is to prevent Teams from damaging the field and / or from anchoring themselves to the field.",
+            "vnote": "Major Violations of this rule should be rare, as Robots should never be designed to intentionally violate it."
+        },
+        "G17": {
+            "main": "**Use Discs to play the game.** Discs may not be used to accomplish actions that would be otherwise illegal if they were attempted by Robot mechanisms (e.g., interfering with an opponent’s Autonomous routine per <SG8>).",
+            "vnote": "If a rule is Violated through the use of Discs instead of a Robot mechanism, it should be evaluated as though the rule in question had been Violated by a Robot mechanism."
+        },
+        "SG1": {
+            "main": "**Starting a Match.** Prior to the start of each Match, the Robot must be placed such that it is:",
+            "a": "Contacting at least one (1) of the gray foam field tiles adjacent to the field perimeter that are between a pair of Starting Lines on their Alliance’s side of the Autonomous Line. See Figure 19.",
+            "b": "Not contacting any other gray foam field tiles.",
+            "c": "Not contacting any Discs other than the Preloads.",
+            "d": "Not contacting another Robot.", 
+            "e": {
+                "main": "Not contacting any Field Elements, such as the Barrier or the Net.",
+                "i": "Contact with the field perimeter is permitted, but not required."
+            },
+            "f": "Contacting no more than two (2) Preloads. See rule <SG2>.",
+            "g": "Not contacting any gray foam tiles inside the Low Goal.",
+            "h": "Within the required starting volume. See rule <G4>.",
+            "i": "Completely stationary (i.e., no motors or other mechanisms are in motion).",
+            "vnote": "The Match will not begin until the conditions in this rule are met for all Robots on the field. If a Robot cannot meet these conditions in a timely manner, the Robot will be removed from the field and rules <R3d> and <T5> will apply until the situation is corrected."
+        },
+        "SG2": {
+            "main": "**Robots get two Preloads.** Prior to the start of each Match, each Preload must be placed such that it is:",
+            "a": "Contacting no more than one Robot.",
+            "b": "Fully within the field perimeter.",
+            "c": "Not in any position that would be considered Scored (such as Disc I in Figure 15).",
+            "d": "In the vertical projection of at least one (1) of the gray foam tiles adjacent to the field perimeter that are between a pair of Starting Lines on their Alliance’s side of the Autonomous Line. See Figure 19.",
+            "e": "Not contacting any other gray foam field tiles.",
+            "f": "Not contacting any Discs other than the Preloads.\n\nIf a Team does not wish to use one or more of their Preloads, or if a Robot is not present for their Match, then the Preloads may be used as Match Load Discs in accordance with <SG6>. ",
+            "vnote": "See <SG1>."
+        },
+        "SG3": {
+            "main": "**Stay away from the Net.** Becoming Entangled with the Net is considered a Violation of <S1> and / or <G16>, and will result in a Disablement. Causing an opponent to become Entangled with the Net is considered a Violation of <G14> and, at a minimum, will result in a Disablement for both Teams.",
+            "vnote": "\n\u2022 Momentary or incidental contact that does not result in Entanglement, such as while aligning with a Loader, is expected and is not considered a Violation.\n\n\u2022 The Disablement associated with this rule is not considered a Major Violation. It is intended to be an avenue for the Head Referee to prevent any potential safety concerns and / or damage to the Net.\n\n\u2022 Intentional, strategic, or repeated Minor Violations and / or Disablements may escalate to a Major Violation at the Head Referee’s discretion."
+        },
+        "SG4": {
+            "main": "**Horizontal expansion is limited until the Endgame.** Robots may not expand beyond a horizontal area of 18” x 18” at any point during the Match prior to the Endgame. A Robot that expands early in a head-to-head Match and cannot rectify the Violation cannot participate in further gameplay and will not receive points for tiles Covered in the Endgame.\n\nThere are no horizontal expansion limits during the Endgame. However, any Robot that comes in contact with anything outside of the field during the Endgame period or due to an early expansion, including the floor or the outside face of the Field Perimeter, will automatically receive a Disqualification for that Match under rule <S2>.",
+            "vnote": "\n\u2022 Teams can prevent an accidental or momentary expansion that does not result in an <S2> Violation from becoming a Major Violation by immediately moving to rectify the Violation, and / or removing themselves from gameplay (e.g., parking in a corner of the field without impacting gameplay for other Robots).\n\n\u2022 Even if an expansion was accidental, it can still be considered a Major Violation if the Head Referee judges that the expansion was intentional, strategic, and / or Match Affecting.\n\nExamples of Major Violations could include, but are not limited to:\n\u2022 A Robot utilizing an expanded mechanism to manipulate Discs\n\n\u2022 A tipped or expanded Robot blocking access to an opponent’s Low Goal\n\n\u2022 A Robot forfeiting Driver Controlled gameplay (i.e., “accidentally” expanding early) in order to get a head-start on the Endgame"
+        },
+        "SG5": {
+            "main": "**Vertical expansion is limited.** Robots may expand vertically within the following conditions:",
+            "a": "The Robot must not be contacting the gray field tiles in either Low Goal.",
+            "b": "No part of the Robot may exceed an overall height of 24”. This height limit is a “virtual ceiling,” meaning that no part of any Robot may ever exceed 24” above the foam tiles, regardless of Robot orientation.",
+            "c": "Any extensions or combinations of extensions above 18” must fit within a vertical cylinder 2” in diameter.",
+            "d": "There are no vertical expansion limits during the Endgame.",
+            "e": "Robots may not contact the High Goal, Discs which are Scored in the High Goal, or the horizontal supporting structures directly underneath the High Goal. This rule applies at all times, regardless of Alliance / High Goal color.",
+            "vnote": "\n\u2022 Repeated Minor Violations that involve interference with gameplay, such as blocking an opponent’s launched Disc while contacting a Low Goal, may escalate to a Major Violations at the Head Referee’s discretion.\n\n\u2022 It is expected that momentary Minor Violations may occur, such as a mechanism retracting while a Robot enters a Low Goal, or while driving over a Disc. These will likely only result in a warning, if no gameplay interference occurs.\n\n\u2022 Even if an expansion was accidental, it can still be considered a Major Violation if the Head Referee judges that the expansion was intentional, strategic, and / or Match Affecting. This especially applies to part “e” of this rule."
+        },
+        "SG6": {
+            "main": "**Match Load Discs may be safely introduced during the Match under certain conditions.** For the purpose of this rule, “introduce” refers to the moment when Match Load Discs are no longer in contact with a human, have crossed the plane of the field perimeter, and are no longer in contact with the Loader.",
+            "a": {
+                "main": "Match Load Discs may only be introduced once the Driver Controlled Period has begun.",
+                "i": "During the Autonomous Period, and during the time between the Autonomous and Driver Controlled Period, Match Load Discs may not cross the plane of the field perimeter."
+            },
+            "b": {
+                "main": "Match Load Discs must be introduced by a Drive Team Member placing them gently onto a Loader. They may then be retrieved from the Loader by a Robot, or gently pushed into the field by a Drive Team Member. See Figure 22 for examples of how Match Load Discs should be introduced.",
+                "i": "The intent of this rule is to permit Teams to impart enough energy on Match Load Discs such that they slide onto the tile (or a Robot) directly in front of the Loader. “Throwing,” “rolling,” or otherwise imparting enough energy onto the Discs such that they leave the intended tile, or violate one of the other points in this rule, is not permitted."
+            },
+            "c": "Match Load Discs may never be contacted by a Robot while still being contacted by a Drive Team Member.",
+            "d": "When utilizing the Loader correctly, a Drive Team Member’s hands should never break the plane of the field perimeter. Therefore, rule <G9> still applies to this interaction.",
+            "e": "When utilizing the Loader correctly, a Robot should never break the plane of the field perimeter. Therefore, rules <S1> and <S2> still apply to this interaction."
+        },
+        "SG7": {
+            "main": "**Possession is limited to three (3) Discs.** Robots may not have greater-than-momentary Possession of more than three (3) Discs at once. Robots in Violation of this rule must immediately stop all Robot actions except for attempting to remove the excess Disc(s). A Robot that is in Violation of rule <SG7> and cannot rectify the Violation cannot participate in further gameplay and will not receive points for tiles Covered in the Endgame.",
+            "note": "This rule applies to both intentional and accidental Possession.",
+            "vnote": "\n\u2022 Any intentional Violation by an Alliance who wins the Match will be considered Match Affecting.\n\n\u2022 Egregious Violations, such as continuing to play other portions of the Game (e.g., Rollers or Endgame) without attempting to remove excess Discs for the majority of the Match, or “accidentally” Possessing an egregious amount of Discs, may also be considered Major Violations at the Head Referee’s discretion."
+        },
+        "SG8": {
+            "main": "**Don’t cross the Autonomous Line.** During the Autonomous Period, Robots may not contact foam tiles, Discs, or Rollers which are on the opposing Alliance’s side of the Autonomous Line.",
+            "a": "<G17> does not apply to this rule, unless egregiously exploited for strategic gain. It is expected that Discs which are launched as part of normal Autonomous gameplay will contact foam tiles on the opponent’s side of the field, and this is not a Violation. However, holding a Disc over the Autonomous Line to manipulate an opponent’s Roller would still be considered a Violation.",
+            "b": "The fourteen (14) Discs which begin the Match on the Autonomous Line are not considered to be on either side, and may be utilized by either Alliance during the Autonomous Period. If attempting to utilize these Discs, Teams should be cognizant of the possibility that opponent Robots may attempt to do the same. <G11>, <G12>, <G14>, and <G17> will be taken into account when these types of Robot interactions occur. Teams should also be prepared for additional scrutiny from Head Referees to ensure that any mechanisms which interact with these Discs do not contact the foam tiles on the other side of the Autonomous Line.",
+            "vnote": "\n\u2022 All Violations of this rule (Major or Minor) will result in the Autonomous Bonus being awarded to the opposing Alliance.\n\n\u2022 Intentional, strategic, or egregious Violations, such as intentional contact with an opposing Robot while completely across the Autonomous Line, will be considered Major Violations."
+        },
+        "SG9": {
+            "main": "**Keep Discs in the field.** Teams may not intentionally remove Discs from the field.",
+            "a": "Although Discs may accidentally leave the field, doing so intentionally or repeatedly would be a Violation of this rule.",
+            "b": "Discs that leave the field during Match play, whether intentionally or unintentionally, will be returned to the field at a location nearest the point at which they exited. Referees will return the Discs to the field when it is deemed safe to do so, at the leisure of the referee.",
+            "vnote": "Major Violations of this rule should be rare; a single Disc exiting the field will almost always be considered accidental / incidental."
+        }
+    },
     "VIQRC_FV": {
         "SC1": {
             "main": "All Scoring statuses are evaluated **after the Match ends**, once all Scored Blocks, Field Elements, and Robots on the Field come to rest.",
