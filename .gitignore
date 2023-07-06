@@ -10,3 +10,6 @@
 
 # IDE
 /.vscode
+
+# downloaded rules file
+/src/lib/rules.json

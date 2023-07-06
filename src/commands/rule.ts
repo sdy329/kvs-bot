@@ -36,7 +36,9 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                 const ruleNumber = interaction.options.getString(
                     ruleOption.ruleNumber,
                     true
-                );
+                )
+                    .trim()
+                    .toUpperCase();
 
                 let seasonID = interaction.options.getString(
                     ruleOption.seasonName,
@@ -73,8 +75,8 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                                 if (json[season][ruleNumber]['note'] !== undefined) {
                                     jsonLength -= 1;
                                 }
-                                if(json[season][ruleNumber]['vnote'] !== undefined) {
-                                    jsonLength -=1;
+                                if (json[season][ruleNumber]['vnote'] !== undefined) {
+                                    jsonLength -= 1;
                                 }
                                 continue;
                             }
@@ -94,7 +96,7 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                                         throw error;
                                     }
                                 }
-                                embed.addFields({ name: ' ', value: subsectionsContent});
+                                embed.addFields({ name: ' ', value: subsectionsContent });
                             }
                             else {
                                 try {
@@ -169,8 +171,8 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                                 if (json[season][ruleNumber]['note'] !== undefined) {
                                     jsonLength -= 1;
                                 }
-                                if(json[season][ruleNumber]['vnote'] !== undefined) {
-                                    jsonLength -=1;
+                                if (json[season][ruleNumber]['vnote'] !== undefined) {
+                                    jsonLength -= 1;
                                 }
                                 continue;
                             }
@@ -190,7 +192,7 @@ const error = (interaction: ChatInputCommandInteraction, content: string) => {
                                         throw error;
                                     }
                                 }
-                                embed.addFields({ name: ' ', value: subsectionsContent});
+                                embed.addFields({ name: ' ', value: subsectionsContent });
                             }
                             else {
                                 try {

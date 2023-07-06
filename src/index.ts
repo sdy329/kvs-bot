@@ -1,15 +1,16 @@
-import {SapphireClient} from '@sapphire/framework';
+import { SapphireClient } from '@sapphire/framework';
 import '@sapphire/plugin-logger/register';
-import {GatewayIntentBits, Options, Partials} from 'discord.js';
-import {MongoClient} from 'mongodb';
-import {logLevel, messageCacheSize, mongoUrl} from './lib/config';
+import { GatewayIntentBits, Options, Partials } from 'discord.js';
+import { MongoClient } from 'mongodb';
+import { logLevel, messageCacheSize, mongoUrl } from './lib/config';
 import {
   MessageCounter,
   type ChannelMessages,
   type MessageCount,
 } from './lib/leaderboard';
-import {SettingsManager, type GuildSettings} from './lib/settings';
-import type {VerifiedMember} from './lib/verification';
+import { SettingsManager, type GuildSettings } from './lib/settings';
+import type { VerifiedMember } from './lib/verification';
+import { downloadFile } from './lib/download';
 
 const mongoClient = new MongoClient(mongoUrl);
 const database = mongoClient.db();
@@ -34,7 +35,7 @@ const discordClient = new SapphireClient({
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent,
   ],
-  logger: {level: logLevel},
+  logger: { level: logLevel },
   makeCache: Options.cacheWithLimits({
     BaseGuildEmojiManager: 0,
     GuildEmojiManager: 0,
@@ -45,7 +46,7 @@ const discordClient = new SapphireClient({
     GuildScheduledEventManager: 0,
     MessageManager: {
       maxSize: messageCacheSize,
-      keepOverLimit: ({pinned}) => pinned,
+      keepOverLimit: ({ pinned }) => pinned,
     },
     PresenceManager: 0,
     ReactionManager: 0,
@@ -65,6 +66,8 @@ const main = async () => {
     discordClient.logger.info('Logging in to Discord');
     await discordClient.login();
     discordClient.logger.info('Logged in to Discord');
+    
+    await downloadFile();
   } catch (error) {
     discordClient.logger.fatal(error);
     throw error;
